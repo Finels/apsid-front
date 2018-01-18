@@ -124,6 +124,8 @@
 
   .home-img {
     width: 100%;
+    float: left;
+    background: #fbfbfb;
   }
 
   .home-img-left {
@@ -169,7 +171,7 @@
   }
 
   .home-right-time {
-    width: 100%;
+    width: 90%;
     margin-top: 1rem;
   }
 
@@ -191,7 +193,7 @@
   .home-right-time .count-down span {
     background: #00aec9;
     width: 100%;
-    padding: 1rem;
+    padding: 0.8rem 0;
     border-radius: 1rem;
     display: block;
     text-align: center;
@@ -246,7 +248,7 @@
   }
 
   .home-right-undertake {
-    margin-bottom: 2rem;
+    margin-bottom: 1.8rem;
   }
 
   .home-right-undertake img {
