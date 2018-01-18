@@ -1,0 +1,93 @@
+body {
+  width: 100%;
+  background: #ffffff;
+}
+
+/*全局设置遮罩层的颜色*/
+.el-loading-mask {
+  background-color: rgba(000, 000, 000, .3);
+}
+
+.el-loading-spinner .el-loading-text {
+  color: #ffffff;
+}
+
+.el-submenu {
+  margin-left: 1%;
+}
+
+.el-icon-arrow-down:before {
+  color: #ffffff !important;
+}
+
+.login-form .el-input__inner {
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.5) !important;
+}
+
+.el-input-group--prepend .el-input__inne {
+  background: rgba(0, 0, 0, 0.5) !important;
+
+}
+
+.el-input-group__append, .el-input-group__prepend {
+  background: rgba(000, 000, 000, 0.5);
+}
+
+.box-card .el-input__inner {
+  height: 2.2rem;
+}
+
+.box-card .el-input {
+  max-width: 13.6rem;
+}
+
+.el-date-editor {
+  max-width: 15rem !important;
+
+}
+
+.box-card .el-form-item__label {
+  width: 10rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.box-card .el-card__header {
+  border-bottom: 0.2rem solid #f15a22;
+}
+
+.box-card .el-card__header span {
+  color: #f15a22;
+  font-weight: bold;
+}
+
+.el-menu-item {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.el-submenu__title {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+
+}
+
+.el-carousel__arrow--left {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.el-carousel__arrow--right {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+hr {
+  border: 0.03rem solid #ffffff
+}
+.el-table .cell {
+  text-align: center;
+}
