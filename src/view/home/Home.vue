@@ -42,6 +42,7 @@
       <el-row>
         <el-col :span="24">
           <div class="text-announcement">
+            <!--<span>Welcome Words</span>-->
           </div>
           <el-col :span="24" class="home-text">
             <div class="text-titel">
@@ -274,9 +275,9 @@
   .home-text {
     margin-top: 2rem;
     background: #f15a22;
+    background-color: rgba(241, 90, 34, 0.86);
     min-height: 200px;
     border-radius: 1rem;
-
   }
 
   .text-titel {
@@ -292,14 +293,15 @@
     width: 43%;
     float: left;
     margin: 2% 1% 2% 3%;
+    border-right: 1px dashed #ffffff;
+    padding-right: 2.8%;
   }
 
   .text-content-right {
     width: 43%;
     float: left;
     margin: 2% 0% 2% 3%;
-    padding-left: 2.5%;
-    border-left: 1px dashed #ffffff;
+    padding-left: 0.2%;
   }
 
   .text-content span {

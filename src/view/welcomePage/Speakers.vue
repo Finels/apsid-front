@@ -79,7 +79,6 @@
               <span>Post Graduate Institute of Medical Education and Research (PGIMER)</span>
               <span>Principal Investigator, DHR-ICMR Centre for Advanced</span>
               <span>Research in Primary Immunodeficiency Diseases, India</span>
-              <span>India</span>
             </div>
           </div>
           <div class="content-main">
@@ -134,6 +133,16 @@
           </div>
           <div class="content-main">
             <div class="content-main-box">
+              <img src="../../../static/img/speakers/Prof.LisaWesterberg.jpg"/>
+            </div>
+            <div class="content-main-font">
+              <h2>Prof. Lisa S. Westerberg</h2>
+              <span>Professor, karolinska institute in Stockholm</span>
+              <span>Reviewers of J Exp Med, Blood</span>
+            </div>
+          </div>
+          <div class="content-main">
+            <div class="content-main-box">
               <img src="../../../static/img/speakers/HFF.jpg"/>
             </div>
             <div class="content-main-font">
@@ -163,6 +172,17 @@
               <span>Respiratory Department, Beijing Children’s Hospital, Capital </span>
               <span>Medical University</span>
               <span>Immediate Past President, Chinese Paediatric Society</span>
+            </div>
+          </div>
+          <div class="content-main">
+            <div class="content-main-box">
+              <img src="../../../static/img/speakers/wenxiasong.jpg"/>
+            </div>
+            <div class="content-main-font">
+              <h2>Prof. Wenxia Song</h2>
+              <span>Professor, Department of cell biology and molecular genetics, University of Maryland professor</span>
+              <span>The national major projects of the judges</span>
+              <span>The American heart association scientific research funds of the judges team leader</span>
             </div>
           </div>
           <div class="content-main">
