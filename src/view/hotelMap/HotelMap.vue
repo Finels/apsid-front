@@ -7,12 +7,19 @@
           <a href="https://www.radissonblu.com/zh/hotel-chongqing" target="_blank"><p style="text-decoration: underline">Radisson Blu Plaza Hotel, Chongqing</p>
           </a>
           <p>
-            Explain：The hotel is arranged, the reservation is made by oneself, the booking form is sent to the designated mailbox on the reservation list, and the price is carried out at the discount price.</p>
+            Instructions: The hotel is arranged, but you need to book a room by filling in and submitting the reservation form to the given email address, you can get a discount price.
+          </p>
+        </div>
+        <div class="map-box-font">
+          <span>Reservation form downloads</span>
+          <a href="../../../static/download/Reservation%20Form(CHCMU).xlsx"><p style="text-decoration: underline">Reservation Form(CHCMU).xlsx</p>
+          </a>
         </div>
         <div class="map-box-font">
           <span>Traffic</span>
-          <p>Service group free bus：2018.5.4/5/6/7/8  There is a trip to the airport in the morning and evening.</p>
-          <p>Taxi：Jiangbei International Airport—Hotel（About:￥60)</p>
+          <p>Service group free bus: 2018.5.4/5/6/7/8</p>
+          <P>There is a shuttle bus to the airport in the morning and evening.</p>
+          <p>Taxi: Jiangbei International Airport-Hotel(About:￥60)</p>
         </div>
       </el-col>
       <el-col :span="12" :offset="2">

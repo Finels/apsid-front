@@ -6,6 +6,9 @@
           <div slot="header" class="clearfix">
             <span>Registration Information Table</span>
           </div>
+          <p style="color: #606266;margin-top: 0.8rem;margin-bottom: 1.2rem;">
+            <span style="color: #f15a22;margin-right: 0.2rem">*</span>Instructions: After submission, please check email for confirmation and get the identical Registration Code.
+          </p>
           <el-form ref="registerForm" :model="registerForm" :rules="rules" :inline="true">
             <el-form-item label="First Name" prop="firstname">
               <el-input v-model="registerForm.firstname"></el-input>

@@ -36,7 +36,7 @@
 <style scoped>
   .footer-box {
     width: 100%;
-    margin-top: 2rem;
+    margin-top: 1.6rem;
     height: 6rem;
     background: #00aec9;
   }

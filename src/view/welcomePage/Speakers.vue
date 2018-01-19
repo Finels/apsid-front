@@ -98,10 +98,12 @@
               <img src="../../../static/img/speakers/yangxiqiang.jpg"/>
             </div>
             <div class="content-main-font">
-              <h2>Prof.Yiqiang Yang</h2>
-              <span>科教文卫体总工会全国师德优秀个人</span>
-              <span>重庆市优秀专业技术人才</span>
-              <span>亚洲太平洋地区杰出儿科医生</span>
+              <h2>Prof.Xiqiang Yang</h2>
+              <span>Professor of Pediatrics</span>
+              <span>Children’s Hospital,</span>
+              <span>Chonqing Medical University</span>
+              <span>Pre-President</span>
+              <span>Chinese Society of Pediatric Immunology China</span>
             </div>
           </div>
           <div class="content-main">
@@ -136,7 +138,7 @@
               <img src="../../../static/img/speakers/Prof.LisaWesterberg.jpg"/>
             </div>
             <div class="content-main-font">
-              <h2>Prof. Lisa S. Westerberg</h2>
+              <h2>Prof.Lisa S. Westerberg</h2>
               <span>Professor, karolinska institute in Stockholm</span>
               <span>Reviewers of J Exp Med, Blood</span>
             </div>
@@ -157,7 +159,7 @@
               <img src="../../../static/img/speakers/WWTU.jpg"/>
             </div>
             <div class="content-main-font">
-              <h2>Prof. Wenwei TU</h2>
+              <h2>Prof.Wenwei TU</h2>
               <span>Professor Department of Paediatrics & Adolescent Medicine</span>
               <span>Li Ka Shing Faculty of Medicine</span>
               <span>The University of Hong Kong</span>
@@ -179,7 +181,7 @@
               <img src="../../../static/img/speakers/wenxiasong.jpg"/>
             </div>
             <div class="content-main-font">
-              <h2>Prof. Wenxia Song</h2>
+              <h2>Prof.Wenxia Song</h2>
               <span>Professor, Department of cell biology and molecular genetics, University of Maryland professor</span>
               <span>The national major projects of the judges</span>
               <span>The American heart association scientific research funds of the judges team leader</span>

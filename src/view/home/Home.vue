@@ -53,11 +53,11 @@
               <span>January 20, 2018</span>
               <span>Dear Friends,</span>
               <span style="display: block;margin-top: 1rem">Our Children’s Hospital of Chongqing Medical University has been given the great honor to host the 2th Scientific Congress of Asian Pacific Society for Immunodeficiencies from May 7th to 8th 2018.</span>
-              <span style="display: block;margin-top: 1rem">Primary immunodeficiency disease (PID) is one of the most challenging disease in children. The children with PIDs need care from pediatrician in different field with deep cooperation. So, topic of the 2th Scientific Congress of APSID is Primary Immunodeficiency Diseases and Beyond... </span>
+              <span style="display: block;margin-top: 1rem">Primary immunodeficiency disease (PID) is one of the most challenging disease in children. The children with PIDs need care from pediatrician in different field with deep cooperation. So, topic of the 2th Scientific Congress of APSID is <i style="font-family: 'Helvetica Neue';"><b>Primary Immunodeficiency Diseases and Beyond...</b></i></span>
               <span style="display: block;margin-top: 1rem">We are now planning an exciting scientific program for promoting treatment and research across Primary Immunodeficiency Disease(PID) and associated field such as Hematology, Rheumatology, Allergy, Respiratory diseases and Infection diseases. Accordingly the congress consists of four symposiums: 1) The main Symposium for PID (7th May); 2) Rheumatology and Allergic Diseases (8th May); 3) Respiratory and Infectious Disease (8th May); 4) Hematology and Transplantation (8th May). Professor Hans D. Ochs, Professor Adrian Thrasher, Professor Andrew J Cant, Professor Yu-lung LAU, Professor Surjit Singh, Kohsuke Imai, Professor Professor Alexei Grom, Professor Angelo Ravelli, Professor Lisa Westerberg, Professor Wenwei Tu, Professor Huamei Forsman, Professor Wenxia Song, Professor Kunling Shen and Professor Xiaodong Zhao et al. will give us excellent lectures.</span>
             </div>
             <div class="text-content text-content-right">
-              <span style="display: block;margin-top: 1rem">To training the junior pediatrician, The APSID 2018 Summer School will be inaugurated on the 5th~6th May 2018 at the same hotel, please kindly find the link.</span>
+              <span style="display: block;margin-top: 1rem">To training the junior pediatrician, The APSID 2018 Summer School will be inaugurated on the 5th~6th May 2018 at the same hotel, please kindly find the link(http://www.apsid2018school.com/en/).</span>
               <span style="display: block;margin-top: 1rem">We shall constantly update the web page to inform you how the scientific program is being developed.  Please inform us your suggestions in the next few months.</span>
               <span style="display: block;margin-top: 1rem">As Executive Chief of Committee for the 2nd Scientific Congress of APSID, I sincerely invite you to come to the APSID 2018 Scientific Congress to promote excellence in PID. Please mark the dates in your diary and Chongqing welcomes you!</span>
               <span
@@ -74,7 +74,7 @@
       <el-row>
         <el-col :span="24">
           <div class="text-announcement">
-            <span>Website Link</span>
+            <span>Website Links</span>
           </div>
           <div class="link">
             <div class="link-one">
@@ -273,7 +273,7 @@
   }
 
   .home-text {
-    margin-top: 2rem;
+    margin-top: 1.6rem;
     background: #f15a22;
     background-color: rgba(241, 90, 34, 0.86);
     min-height: 200px;
@@ -287,6 +287,7 @@
   .text-titel h1 {
     color: #ffffff;
     font-size: 1.5rem;
+    font-family: Helvetica;
   }
 
   .text-content-left {
@@ -315,7 +316,7 @@
 
   .link {
     width: 100%;
-    margin-top: 2rem;
+    margin-top: 1.6rem;
   }
 
   .link-one {

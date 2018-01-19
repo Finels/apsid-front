@@ -47,7 +47,7 @@ Monument for Liberation records the history and culture of Chongqing, supporting
           </div>
           <div class="content-main">
             <div class="content-main-img">
-              <h2>Three Gorges</h2>
+              <h2>Dazu Rock Carvings</h2>
               <img src="../../../static/img/about/DZSK.jpg"/>
             </div>
             <div class="content-main-box content-main-box-4">
