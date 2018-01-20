@@ -7,19 +7,18 @@
           <a href="https://www.radissonblu.com/zh/hotel-chongqing" target="_blank"><p style="text-decoration: underline">Radisson Blu Plaza Hotel, Chongqing</p>
           </a>
           <p>
-            Instructions: The hotel is arranged, but you need to book a room by filling in and submitting the reservation form to the given email address, you can get a discount price.
+            Instructions: The hotel is arranged, but you need to book a room by filling in and submitting the reservation form to the given email address, you can get a discount price.
           </p>
         </div>
         <div class="map-box-font">
           <span>Reservation form downloads</span>
-          <a href="../../../static/download/Reservation%20Form(CHCMU).xlsx"><p style="text-decoration: underline">Reservation Form(CHCMU).xlsx</p>
+          <a href="../../../static/download/Reservation%20Form(CQCMU).xlsx"><p style="text-decoration: underline">Reservation Form(CQCMU).xlsx</p>
           </a>
         </div>
         <div class="map-box-font">
           <span>Traffic</span>
-          <p>Service group free bus: 2018.5.4/5/6/7/8</p>
-          <P>There is a shuttle bus to the airport in the morning and evening.</p>
-          <p>Taxi: Jiangbei International Airport-Hotel(About:￥60)</p>
+          <p>Free shuttle bus service: </p><p>It is available during 4-8 May 2018, from Jangbei Airport to Radisson Blu Plaza Hotel, once in the morning and once at night.</p>
+          <p>Taxi: From Jangbei Airport to Radisson Blu Plaza Hotel(about 60 RMB).</p>
         </div>
       </el-col>
       <el-col :span="12" :offset="2">

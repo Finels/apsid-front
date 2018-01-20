@@ -9,19 +9,19 @@
           <div class="content-main">
             <div class="content-main-font">
               <h2>Adress</h2>
-              <span>Children’s Hospital of Chongqing Medical University, No. 136,Zhongshan 2nd Rd, Yuzhong District, Chongqing 400014, China</span>
+              <span>Children's Hospital of Chongqing Medical University, No.136, Zhongshan 2nd Rd, Yuzhong District, Chongqing 400014, China</span>
             </div>
           </div>
           <div class="content-main">
             <div class="content-main-font">
               <h2>Contact</h2>
-              <span>Yunfei An , Tel: 86+13896187845, email: anyf82@aliyun.com</span>
+              <span>Yunfei An, Tel: 86+13896187845, email: anyf82@aliyun.com</span>
               <span>Ni Zeng, Tel: 86+13883855183, email: zengni-xiao.mao@163.com</span>
             </div>
           </div>
           <div>
             <span style="line-height: 2rem; margin-left:0.8rem;float:left;display:block;color: red">*</span>
-            <p style="line-height: 2rem;">If you need an invitation, please contact the mailbox above after registration and payment</p>
+            <p style="line-height: 2rem;">If you need an invitation, please contact the email above after registration and payment</p>
           </div>
         </div>
       </el-col>

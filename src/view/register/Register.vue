@@ -49,8 +49,8 @@
             </el-form-item>
           </el-form>
           <div class="registerForm-button">
-            <el-button type="success" @click="saveForm('registerForm')">submission</el-button>
-            <el-button type="ghost" @click="resetForm">cancel</el-button>
+            <el-button type="success" @click="saveForm('registerForm')">Submit</el-button>
+            <el-button type="ghost" @click="resetForm">Cancel</el-button>
           </div>
         </el-card>
       </el-col>

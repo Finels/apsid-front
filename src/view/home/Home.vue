@@ -22,7 +22,7 @@
               <span>CONFERENCE DATE</span>
               <br>
               <a href="#"><span
-                style="color: #e9669c;font-weight: 400;line-height: 1.5rem;font-size: 1rem">5-6 MAY,2018,Chongqing,China</span></a>
+                style="color: #e9669c;font-weight: 400;line-height: 1.5rem;font-size: 1rem">5-6 MAY, 2018, Chongqing, China</span></a>
             </div>
             <div class="home-right-host">
               <span>HOST UNIT</span>
@@ -50,23 +50,22 @@
               <hr>
             </div>
             <div class="text-content text-content-left">
-              <span>January 20, 2018</span>
+              <span>20<sup>th</sup> January, 2018</span>
               <span>Dear Friends,</span>
-              <span style="display: block;margin-top: 1rem">Our Children’s Hospital of Chongqing Medical University has been given the great honor to host the 2th Scientific Congress of Asian Pacific Society for Immunodeficiencies from May 7th to 8th 2018.</span>
-              <span style="display: block;margin-top: 1rem">Primary immunodeficiency disease (PID) is one of the most challenging disease in children. The children with PIDs need care from pediatrician in different field with deep cooperation. So, topic of the 2th Scientific Congress of APSID is <i style="font-family: 'Helvetica Neue';"><b>Primary Immunodeficiency Diseases and Beyond...</b></i></span>
-              <span style="display: block;margin-top: 1rem">We are now planning an exciting scientific program for promoting treatment and research across Primary Immunodeficiency Disease(PID) and associated field such as Hematology, Rheumatology, Allergy, Respiratory diseases and Infection diseases. Accordingly the congress consists of four symposiums: 1) The main Symposium for PID (7th May); 2) Rheumatology and Allergic Diseases (8th May); 3) Respiratory and Infectious Disease (8th May); 4) Hematology and Transplantation (8th May). Professor Hans D. Ochs, Professor Adrian Thrasher, Professor Andrew J Cant, Professor Yu-lung LAU, Professor Surjit Singh, Kohsuke Imai, Professor Professor Alexei Grom, Professor Angelo Ravelli, Professor Lisa Westerberg, Professor Wenwei Tu, Professor Huamei Forsman, Professor Wenxia Song, Professor Kunling Shen and Professor Xiaodong Zhao et al. will give us excellent lectures.</span>
+              <span style="display: block;margin-top: 1rem">Our Children's Hospital of Chongqing Medical University has been given the great honor to host the second Scientific Congress of Asian Pacific Society for Immunodeficiencies from May 7th to 8th, 2018. Primary immunodeficiency disease (PID) is one of the most challenging disease for children around the world. The children with PIDs need care from pediatrician in different fields with deep cooperation. So, topic of the 2th Scientific Congress of APSID is <i style="font-family: 'Helvetica Neue';"><b>Primary Immunodeficiency Diseases and Beyond...</b></i></span>
+              <span style="display: block;margin-top: 1rem">We are now planning an exciting scientific program for promoting treatment and research across Primary Immunodeficiency Disease(PID) and associated fields such as Hematology, Rheumatology, Allergy, Respiratory diseases and Infection diseases. Accordingly the congress consists of four symposiums: 1) The main Symposium for PID (7th May); 2) Rheumatology and Allergic Diseases (8th May); 3) Respiratory and Infectious Disease (8th May); 4) Hematology and Transplantation (8th May). Professor Hans D. Ochs, Professor Adrian Thrasher, Professor Andrew J Cant, Professor Yu-lung LAU, Professor Surjit Singh, Kohsuke Imai, Professor Professor Alexei Grom, Professor Angelo Ravelli, Professor Lisa Westerberg, Professor Wenwei Tu, Professor Huamei Forsman, Professor Wenxia Song, Professor Kunling Shen and Professor Xiaodong Zhao et al. will give us excellent lectures.</span>
             </div>
             <div class="text-content text-content-right">
-              <span style="display: block;margin-top: 1rem">To training the junior pediatrician, The APSID 2018 Summer School will be inaugurated on the 5th~6th May 2018 at the same hotel, please kindly find the link(http://www.apsid2018school.com/en/).</span>
-              <span style="display: block;margin-top: 1rem">We shall constantly update the web page to inform you how the scientific program is being developed.  Please inform us your suggestions in the next few months.</span>
-              <span style="display: block;margin-top: 1rem">As Executive Chief of Committee for the 2nd Scientific Congress of APSID, I sincerely invite you to come to the APSID 2018 Scientific Congress to promote excellence in PID. Please mark the dates in your diary and Chongqing welcomes you!</span>
+              <span style="display: block;margin-top: 1rem">To training the junior pediatrician, The APSID 2018 Summer School will be inaugurated on the 5th~6th May 2018 at the same venue, please kindly note the link(<a href="http://www.apsid2018school.com/en/" target="_blank" style="color: #ffffff;">http://www.apsid2018school.com/en/</a>).</span>
+              <span style="display: block;margin-top: 1rem">We shall constantly update the web page to inform you how the scientific program is being developed. Please feel free to send us your suggestions in the next few months.</span>
+              <span style="display: block;margin-top: 1rem">As the Executive Chief of Committee for the 2nd Scientific Congress of APSID, I sincerely invite you to come to the APSID 2018 Scientific Congress to promote excellences in PID research. Please mark the dates in your calendar and prepare to embrace the greetings from Chongqing!</span>
               <span
                 style="padding-top:0.5rem;border-top:1px dashed #ffffff;display: block;margin-top: 1rem;font-weight: bold;font-size: 1.1rem">Professor Xiaodong Zhao</span>
               <img style="margin: 1rem" src="../../../static/img/zxd.png"/>
               <img style="margin: 1rem" src="../../../static/img/zhaoxiaodong.png"/>
               <span>Executive Chief of Committee</span>
               <span>The 2th Scientific Congress of APSID </span>
-              <span>Children’s Hospital of Chongqing Medical University</span>
+              <span>Children's Hospital of Chongqing Medical University</span>
             </div>
           </el-col>
         </el-col>
@@ -312,6 +311,11 @@
     font-size: 1.0rem;
     line-height: 1.5rem;
 
+  }
+
+  .text-content span sup{
+    vertical-align: super;
+    font-size: 0.8rem;
   }
 
   .link {

@@ -24,9 +24,8 @@
               <img src="../../../static/img/speakers/ProfHansDOchs.jpg"/>
             </div>
             <div class="content-main-font">
-              <h2>Prof.Hans D. Ochs</h2>
-              <span>Jeffrey Modell Endowed Chair in Pediatric Immunology</span>
-              <span>Research</span>
+              <h2>Prof. Hans D Ochs</h2>
+              <span>Jeffrey Modell Endowed Chair in Pediatric Immunology Research</span>
               <span>Professor, Department of Pediatrics,</span>
               <span>University of Washington, USA</span>
             </div>
@@ -36,7 +35,7 @@
               <img src="../../../static/img/speakers/Prof.AndrewJCant.png"/>
             </div>
             <div class="content-main-font">
-              <h2>Prof.Andrew J Cant</h2>
+              <h2>Prof. Andrew J Cant</h2>
               <span>ESID President</span>
               <span>Hon Clin Prof Paediatric Immunology</span>
               <span>Newcastle University</span>
@@ -47,9 +46,9 @@
               <img src="../../../static/img/speakers/Prof.AdrianThrasher.png"/>
             </div>
             <div class="content-main-font">
-              <h2>Prof.Adrian Thrasher</h2>
-              <span>Professor in Paediatric Immunology and Wellcome Trust SRF ICH Infect,</span>
-              <span>Imm, Infla. & Physio Med UCL GOS Institute of Child Health</span>
+              <h2>Prof. Adrian Thrasher</h2>
+              <span>Professor in Paediatric Immunology and Wellcome Trust SRF</span>
+              <span>ICH Infect, Imm, Infla. & Physio Med UCL GOS Institute of Child Health</span>
               <span>University College London</span>
             </div>
           </div>
@@ -58,7 +57,7 @@
               <img src="../../../static/img/speakers/ProfYu-LungLau.jpg"/>
             </div>
             <div class="content-main-font">
-              <h2>Prof.YuLung Lau</h2>
+              <h2>Prof. Yu-Lung Lau</h2>
               <span>President, APSID</span>
               <span>Doris Zimmern Professor in Community Child Health</span>
               <span>Chair Professor of Paediatrics</span>
@@ -72,13 +71,11 @@
               <img src="../../../static/img/speakers/ProfSurjitSingh.jpg"/>
             </div>
             <div class="content-main-font">
-              <h2>Prof.Surjit Singh</h2>
+              <h2>Prof. Surjit Singh</h2>
               <span>Secretary, APSID</span>
-              <span>Professor of Pediatrics and Incharge Allergy Immunology Unit</span>
-              <span>Advanced Pediatrics Centre</span>
+              <span>Professor of Pediatrics and Incharge Allergy Immunology Unit Advanced Pediatrics Centre</span>
               <span>Post Graduate Institute of Medical Education and Research (PGIMER)</span>
-              <span>Principal Investigator, DHR-ICMR Centre for Advanced</span>
-              <span>Research in Primary Immunodeficiency Diseases, India</span>
+              <span>Principal Investigator, DHR-ICMR Centre for Advanced Research in Primary Immunodeficiency Diseases, India</span>
             </div>
           </div>
           <div class="content-main">
@@ -86,11 +83,10 @@
               <img src="../../../static/img/speakers/PKHI.jpg"/>
             </div>
             <div class="content-main-font">
-              <h2>Prof.Kohsuke Imai</h2>
-              <span>Chair，Cellular Therapy & Transplant Working Party, APSID</span>
-              <span>Associate Professor, Department of Community Pediatrics,</span>
-              <span>Perinatal and Maternal Medicine, Tokyo Medical and Dental</span>
-              <span>University(TMDU)</span>
+              <h2>Prof. Kohsuke Imai</h2>
+              <span>Chair, Cellular Therapy & Transplant Working Party, APSID</span>
+              <span>Associate Professor, Department of Community Pediatrics, Perinatal and Maternal</span>
+              <span>Medicine, Tokyo Medical and Dental University (TMDU)</span>
             </div>
           </div>
           <div class="content-main">
@@ -98,12 +94,9 @@
               <img src="../../../static/img/speakers/yangxiqiang.jpg"/>
             </div>
             <div class="content-main-font">
-              <h2>Prof.Xiqiang Yang</h2>
-              <span>Professor of Pediatrics</span>
-              <span>Children’s Hospital,</span>
-              <span>Chonqing Medical University</span>
-              <span>Pre-President</span>
-              <span>Chinese Society of Pediatric Immunology China</span>
+              <h2>Prof. Xiqiang Yang</h2>
+              <span>Professor of Pediatrics, Children’s Hospital of Chonqing Medical University</span>
+              <span>Pre-President, Chinese Society of Pediatric Immunology China</span>
             </div>
           </div>
           <div class="content-main">
@@ -111,10 +104,9 @@
               <img src="../../../static/img/speakers/AlexeiGrom.jpg"/>
             </div>
             <div class="content-main-font">
-              <h2>Prof.Alexei Grom</h2>
+              <h2>Prof. Alexei Grom</h2>
               <span>Professor, University of California, Department of Pediatrics</span>
-              <span>Pediatrician, Division of Rheumatology, Cincinnati Children’s </span>
-              <span>Hospital Medical Center</span>
+              <span>Pediatrician, Division of Rheumatology, Cincinnati Children's Hospital Medical Center</span>
               <span>Member of American Board of Pediatrics</span>
             </div>
           </div>
@@ -123,13 +115,12 @@
               <img src="../../../static/img/speakers/AngeloRavelli.jpg"/>
             </div>
             <div class="content-main-font">
-              <h2>Prof.Angelo Ravelli</h2>
-              <span>Professor of Pediatrics and Director of Pediatric Residency Pr</span>
-              <span>ogram, University of Genoa </span>
+              <h2>Prof. Angelo Ravelli</h2>
+              <span>Professor of Pediatrics and Director of Pediatric Residency Program</span>
+              <span>University of Genoa</span>
               <span>Head, Division of Rheumatology, Giannina Gaslini Institute</span>
               <span>EULAR Center of Excellence in Rheumatology</span>
-              <span>Treasurer, Pediatric Rheumatology 2013-2018 </span>
-              <span>European Society (PRES)</span>
+              <span>Treasurer, Pediatric Rheumatology 2013-2018 European Society (PRES)</span>
               <span>Chairman, Italian Pediatric Rheumatology Study Group</span>
             </div>
           </div>
@@ -138,7 +129,7 @@
               <img src="../../../static/img/speakers/Prof.LisaWesterberg.jpg"/>
             </div>
             <div class="content-main-font">
-              <h2>Prof.Lisa S. Westerberg</h2>
+              <h2>Prof. Lisa S. Westerberg</h2>
               <span>Professor, karolinska institute in Stockholm</span>
               <span>Reviewers of J Exp Med, Blood</span>
             </div>
@@ -148,10 +139,9 @@
               <img src="../../../static/img/speakers/HFF.jpg"/>
             </div>
             <div class="content-main-font">
-              <h2>Prof.Huamei Fu Forsman</h2>
-              <span>Associate professor financed by Swedish,</span>
-              <span>Research Council (VR), Department of Rheumatology,</span>
-              <span>and Inflammation Research, Göteborg University</span>
+              <h2>Prof. Huamei Fu Forsman</h2>
+              <span>Associate professor financed by Swedish</span>
+              <span>Research Council (VR), Department of Rheumatology and Inflammation Research, Göteborg University</span>
             </div>
           </div>
           <div class="content-main">
@@ -159,7 +149,7 @@
               <img src="../../../static/img/speakers/WWTU.jpg"/>
             </div>
             <div class="content-main-font">
-              <h2>Prof.Wenwei TU</h2>
+              <h2>Prof. Wenwei TU</h2>
               <span>Professor Department of Paediatrics & Adolescent Medicine</span>
               <span>Li Ka Shing Faculty of Medicine</span>
               <span>The University of Hong Kong</span>
@@ -170,9 +160,8 @@
               <img src="../../../static/img/speakers/kls.jpg"/>
             </div>
             <div class="content-main-font">
-              <h2>Prof.Kunling Shen</h2>
-              <span>Respiratory Department, Beijing Children’s Hospital, Capital </span>
-              <span>Medical University</span>
+              <h2>Prof. Kunling Shen</h2>
+              <span>Respiratory Department, Beijing Children's Hospital, Capital Medical University</span>
               <span>Immediate Past President, Chinese Paediatric Society</span>
             </div>
           </div>
@@ -181,7 +170,7 @@
               <img src="../../../static/img/speakers/wenxiasong.jpg"/>
             </div>
             <div class="content-main-font">
-              <h2>Prof.Wenxia Song</h2>
+              <h2>Prof. Wenxia Song</h2>
               <span>Professor, Department of cell biology and molecular genetics, University of Maryland professor</span>
               <span>The national major projects of the judges</span>
               <span>The American heart association scientific research funds of the judges team leader</span>
@@ -192,12 +181,10 @@
               <img src="../../../static/img/speakers/ProfXiaodongZhao.png"/>
             </div>
             <div class="content-main-font">
-              <h2>Prof.Xiaodong Zhao</h2>
+              <h2>Prof. Xiaodong Zhao</h2>
               <span>Chair, Clinical Care Working Party, APSID</span>
-              <span>Professor of Pediatrics</span>
-              <span>Children’s Hospital, Chonqing Medical University</span>
-              <span>President</span>
-              <span>Chinese Society of Pediatric Immunology China</span>
+              <span>Professor of Pediatrics Children's Hospital, Chonqing Medical University</span>
+              <span>President, Chinese Society of Pediatric Immunology China</span>
             </div>
           </div>
           <div class="content-main">
@@ -206,10 +193,8 @@
             </div>
             <div class="content-main-font">
               <h2>Dr Huawei Mao</h2>
-              <span>Associate Consultant, The University of Hong Kong-Shenzhen</span>
-              <span>Hospital</span>
-              <span>Vice chairman, Youth Committee, Chinese Society of Pediatric</span>
-              <span>ImmunologyChina</span>
+              <span>Associate Consultant, The University of Hong Kong-Shenzhen Hospital</span>
+              <span>Vice chairman, Youth Committee, Chinese Society of Pediatric Immunology China</span>
             </div>
           </div>
         </div>

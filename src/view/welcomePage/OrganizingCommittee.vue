@@ -28,8 +28,8 @@
           <div class="content-main">
             <div class="content-main-font">
               <h2>Member</h2>
-              <span>Xuemei Tang, Enmei  Liu,  Jie Yu, Juan Zhao, Yunfei An, Luo Ren, Xizhou An, Zhiyong  Zhang, Lina Zhou, </span>
-              <span>Ni Zeng</span>
+              <span>Xuemei Tang, Enmei Liu, Jie Yu, Juan Zhao, Yunfei An, Luo Ren, Xizhou An,</span>
+              <span>Zhiyong Zhang, Lina Zhou, Ni Zeng</span>
             </div>
           </div>
         </div>

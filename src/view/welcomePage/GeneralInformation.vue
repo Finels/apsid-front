@@ -58,6 +58,9 @@ Jiangbei airport is connected to Chongqing via right rail service, convenient fi
             </div>
           </div>
           <div class="content-main">
+            <img src="../../../static/img/HC.png"/>
+          </div>
+          <div class="content-main">
             <div class="content-main-font">
               <h2>LANGUAGE</h2>
               <span>The official language of the Meeting is English.</span>
@@ -68,9 +71,6 @@ Jiangbei airport is connected to Chongqing via right rail service, convenient fi
               <h2>CURRENCY </h2>
               <span>The RMB is the official currency of Chongqing. Currency exchange can be made in airport and most local banks.</span>
             </div>
-          </div>
-          <div class="content-main">
-            <img src="../../../static/img/HC.png"/>
           </div>
           <div class="content-main">
             <div class="content-main-font">
