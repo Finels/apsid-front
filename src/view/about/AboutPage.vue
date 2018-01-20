@@ -4,34 +4,30 @@
       <el-col :span="24">
         <div class="about-content">
           <div class="content-titel">
-            <h1>What To See?</h1>
+            <h1>Brief introduction to Chongqing</h1>
+          </div>
+          <div class="content-titel-box">
+            <span>Chongqing is a major city in southwest China. Administratively, it is one of China's four direct-controlled municipalities (the other three are Beijing, Shanghai and Tianjin), and the only such municipality in China located far away from the coast.</span>
+            <span>Chongqing was called Yu Prefecture in ancient times. It received its current name in 1189, after Prince Zhao Dun of the Southern Song Dynasty described his crowning as king and then Emperor Guangzong as a "double celebration". In his honour, Yu Prefecture was therefore renamed </span>
+            <span>Chongqing subprefecture marking the occasion of his enthronement.</span>
+            <span>During the World War Ⅱ, it was the provisional capital of China.</span>
           </div>
           <div class="content-main">
             <div class="content-main-img">
-              <h2>Hong Ya Dong</h2>
+              <h2>Hong Ya Cave</h2>
               <img src="../../../static/img/about/HYD.jpg"/>
             </div>
             <div class="content-main-box">
-            <span>Hongyadong, located in the central business district of Monument for Liberation Cang Bai Lu in Chongqing municipality, the Yangtze River and Jialing River confluence of the Binjiang region, sitting on the city tourism landscape, commercial leisure landscape and cultural landscape in one city. With the Bayu traditional architectural characteristic "stilts" style as the main body, the mountain, built along the river, the Monument for Liberation to the riverside.
-
-Hongyadong has a history of 2300 years. "Hongyadong folk style" is the 2005 Chongqing municipal government "one of the" eight people, a total area of 46 thousand square meters, is the focus of Chongqing city landscape engineering "and" AAA key tourism project". The scenic spot is famous in the whole city to hold business and leisure tourism landscape, landscape and cultural landscape of the city, and most of Bayu traditional architectural characteristic "stilts" style as the main body, the mountain, along the cliff built, Monument for Liberation is a good place to swim to the riverside, Diaojiao group building, Hongya DiCui, visiting the mountain street and enjoy the Bayu culture, at the confluence of two rivers, the world delicacy, Monument for Liberation is also the reception hall.</span>
-            </div>
-            <div>
+              <span>Hongya Cave has a history of over 2,300 years. It was a military fortress from the ancient Ba State (1046 B.C. - 256 B.C) to the Ming and Qing Dynasties (1368 - 1911), and was also the site of the earliest and most developed pier of ancient China. The site now houses a large-scale stilt house complex built alongside a steep cliff on the bank of Jialing River. It has become a popular destination for visitors to experience Bayu culture - a Chinese ethnic culture, gaze over the river, and taste delicious food. The stunning night view is a highlight and should not be missed.</span>
             </div>
           </div>
           <div class="content-main">
             <div class="content-main-img">
-              <h2>Monument for Liberation</h2>
+              <h2>Jie Fang Bei</h2>
               <img src="../../../static/img/about/JFB.jpg"/>
             </div>
             <div class="content-main-box">
-            <span>Monument for Liberation is one of the landmark buildings in Chongqing. It is located at the intersection of National Road, civil rights road and Zou Rong road in the downtown area of Yuzhong District, Chongqing city. The monument is 27.5 metres high, a ladder to the top; the monument is arranged on the top of clock, direction signs and anemometer.
-
-The Monument for Liberation was first built in twenty-nine years (1940) March 12th anniversary of the death of Sun Zhongshan, in thirty years (1941) at the end of the completion, named as the "spiritual fortress" to encourage Chinese people to fight for victory, the victory of the Anti Japanese war after the victory of the Anti Japanese war was renamed "Ji Gong monument". In 1950, Liu Baicheng changed the title of "the monument to the people's Liberation of Chongqing".
-
-Monument for Liberation records the history and culture of Chongqing, supporting Chongqing's past and future. Now Monument for Liberation is the pronoun of the central business district, the core card of Chongqing, and one of the ten cultural symbols of Chongqin</span>
-            </div>
-            <div>
+              <span>Jiefangbei (Monument for Liberation),is located in the central part of Yuzhong district, is a monument as one of the landmark buildings in Chongqing. The height of this monument is 27.5 meters, and it is equipped with four clocks facing four directions on the top. The monument was built in 1940 on March 12th (Memorial Day of Sun Yat-sen’s death) and completed in 1941. In order to encourage Chinese people to win the World War Ⅱ, it was named “Spiritual Fortress” at first, after the liberation war, it was named “Monument of Victory”. this name was given by Marshal Liu Bocheng in 1950,  A.K.A Jie fang bei in Chinese. Jie fang bei is the most famous landmark of Chongqing, and as time goes by, Jiefangbei area has become a fascinating shopping district.</span>
             </div>
           </div>
           <div class="content-main">
@@ -40,9 +36,7 @@ Monument for Liberation records the history and culture of Chongqing, supporting
               <img src="../../../static/img/about/SX.jpg"/>
             </div>
             <div class="content-main-box content-main-box-3">
-              <span>Also known as Xiajiang or the Three Gorges of the Yangtze River Three Gorges, Chongqing city is located in the territory of China, Enshi, Yichang City area on the Yangtze River, west of Chongqing City, Fengjie County Baidicheng, after Enshi, Yichang City, Hubei Province East nanjinguan, a total length of 193 km, Qutang Gorge, Xiling gorge. The Three Gorges of the Yangtze River, located in the hinterland of China, belongs to the subtropical monsoon climate zone, across Chongqing Fengjie, Wushan of Chongqing, Badong in Hubei, Zigui in Hubei and Yichang in Hubei. In addition to the famous Three Gorges of the Yangtze River, many rivers and rivers all over the country are famous as the scenic spots of the Three Gorges. Another poem on the theme of the Three Gorges</span>
-            </div>
-            <div>
+              <span>The Three Gorges are three adjacent gorges along the middle reaches of the Yangtze River. They are known for their scenery, and the “Three Gorges Scenic Area” is classified as the AAAAA scenic area(the highest level) by the China National Tourism Administration.</span>
             </div>
           </div>
           <div class="content-main">
@@ -51,11 +45,7 @@ Monument for Liberation records the history and culture of Chongqing, supporting
               <img src="../../../static/img/about/DZSK.jpg"/>
             </div>
             <div class="content-main-box content-main-box-4">
-            <span>Dazu Rock Carvings: the world cultural heritage, one of the eight Grottoes in the world, the national AAAAA level tourist attractions, the national key cultural relics protection unit, the ten largest cultural symbol of Chongqing, the best scenic spot of 2016 National Day holiday tourism.
-
-Dazu stone is located in Dazu District of Chongqing City, is the late Tang and early Song period of religious inscriptions, mainly Buddhist themes, Confucianism, Taoist and Chan, is a famous historical and artistic treasures, treasure Buddhist shrine, "the Pearl of the Oriental Art".</span>
-            </div>
-            <div>
+              <span>The Dazu Rock Carvings are a series of Chinese religious sculptures and carvings located in Dazu District (about 100km away from downtown of Chong Qing), Chongqing. The carvings date back as far as the 7th century AD, depicting and influenced by Buddhist, Confucian and Taoist beliefs. Some are in rock-cut cave shrines, in the usual Chinese Buddhist style, but many others are rock reliefs carved into the open rock faces.Dazu Rock Carvings were designated as World Heritage Site in 1999.</span>
             </div>
           </div>
         </div>
@@ -65,9 +55,20 @@ Dazu stone is located in Dazu District of Chongqing City, is the late Tang and e
           </div>
           <div class="content-main content-main-2">
             <div class="content-main-font">
-              <h2>Vehicle</h2>
-              <span>Taxi   Transit   Light rail</span>
-              <span>Taxis：starting price ￥10</span>
+              <h2>Plane</h2>
+              <span>Land at the Jiangbei international airport which is 30km away from the center of Chongqing. Served by main international airlines and it’s just a 3-hours flight distance for  you to start from Beijing, or Shanghai or  Hong Kong to get to our city.</span>
+            </div>
+            <div class="content-main-font">
+              <h2>Train</h2>
+              <span>There are plenty of expresses conjunct chongqing with other chinese cities . There are 3 railway stations in Chongqing, and they are about 15 km from downtown. You can take a train from anywhere in China to Chongqing, it takes 12 hours from Beijing to Chongqing and 10 hours for starting from Shanghai to do so. </span>
+            </div>
+            <div class="content-main-font">
+              <h2>Taxi</h2>
+              <span>Because of the rugged terrain, Chongqing is known as the magic city in China. If you want to go sightseeing, taxi is a good option. The fare starts from ￥10 for the first 3 kilometers, afterwards ￥2 for each kilometer, (During 11:00pm~6:00am, The fare starts from ￥11). It costs about ￥60 from Jiangbei international airport to downtown area and 30RMB from Chongqingbei railway station to downtown area.</span>
+            </div>
+            <div class="content-main-font">
+              <h2>Light rail</h2>
+              <span>The light rail in Chongqing has been developing rapidly and Chongqing has the longest operational mileage, the most running vehicles and the largest passenger group in the world. The tickets prices of the light rail are from 2RMB to 7RMB, you can go to most places by light rail. And you can take the light rail at the Jiangbei international airport and Chongqingbei railway station.</span>
             </div>
           </div>
         </div>
@@ -81,7 +82,7 @@ Dazu stone is located in Dazu District of Chongqing City, is the late Tang and e
               <img src="../../../static/img/about/HG.png"/>
             </div>
             <div class="food-box">
-              <h2>String String</h2>
+              <h2>Fried sticked meat</h2>
               <img src="../../../static/img/about/CC.jpg"/>
             </div>
             <div class="food-box">
@@ -115,9 +116,12 @@ Dazu stone is located in Dazu District of Chongqing City, is the late Tang and e
           <div class="content-titel content-titel-2">
             <h1>Climate</h1>
           </div>
-          <div class="content-main content-main-2">
-            <div class="content-main-font content-main-font-2">
-              <a href="http://www.weather.com.cn/weather/101040100.shtml"><span>Weather forecast</span></a>
+          <div class="content-main">
+            <div class="climeat-box">
+              <img src="../../../static/img/about/climeat.png"/>
+            </div>
+            <div class="climeat-box-font">
+              <span>Chongqing is known as the “foggy city”, there are many foggy days in a year. Chongqing has a monsoon-influenced humid subtropical climate (similar to Shanghai), and for most of the year experiences very wet conditions.</span>
             </div>
           </div>
         </div>
@@ -140,16 +144,30 @@ Dazu stone is located in Dazu District of Chongqing City, is the late Tang and e
 </script>
 
 <style scoped>
-  .content-box{
+  .content-box {
     width: 75%;
     margin: 0 auto;
   }
+
   .content-titel {
     float: left;
     width: 100%;
     margin-top: 1.5rem;
     height: 3rem;
     border-bottom: 0.2rem solid #f15a22;
+  }
+
+  .content-titel-box {
+    width: 100%;
+  }
+
+  .content-titel-box span {
+    display: block;
+    font-size: 1rem;
+    line-height: 2rem;
+    text-align: left;
+    color: #013763;
+    font-family: sans-serif;
   }
 
   .content-titel-2 {
@@ -215,10 +233,6 @@ Dazu stone is located in Dazu District of Chongqing City, is the late Tang and e
     font-family: sans-serif;
   }
 
-  .content-main-font-2 {
-    text-decoration: underline;
-  }
-
   .content-main-font-2 a :hover {
     color: #f15a22;
   }
@@ -279,6 +293,32 @@ Dazu stone is located in Dazu District of Chongqing City, is the late Tang and e
   }
 
   .content-main-font span {
+    display: block;
+    margin-left: 1rem;
+    font-size: 1rem;
+    line-height: 2rem;
+    text-align: left;
+    color: #013763;
+    font-family: sans-serif;
+  }
+
+  .climeat-box {
+    margin: 1%;
+    width: 50%;
+    float: left;
+  }
+
+  .climeat-box img {
+    width: 100%;
+  }
+
+  .climeat-box-font {
+    margin-top: 3rem;
+    width: 46%;
+    float: left;
+  }
+
+  .climeat-box-font span {
     display: block;
     margin-left: 1rem;
     font-size: 1rem;

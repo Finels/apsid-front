@@ -22,19 +22,39 @@
           <div class="content-main">
             <div class="content-main-font-box">
               <div class="content-main-font">
-                <h2>MEETING ADDRESS</h2>
-                <span>Radisson Blu Plaza Chongqing</span>
-                <span>number 22 Nanbin Road in Chongqing Nan'an District.</span>
+                <h2>LOCATION</h2>
+                <span>ChongQing, China</span>
               </div>
               <div class="content-main">
                 <div class="content-main-font">
-                  <h2>ACCESSABILITY </h2>
-                  <span>The Radisson Blu Plaza Chongqing is lacated in Nanbin Road. It takes about 1 hour from the Jiangbei airport to this hotel by taxi. You can easily reach this hotel by taxi or by free bus of conference group. A free bus from the airport to hotel will be provided in the morning and evening during this congress by the meeting team. </span>
+                  <h2>DATES</h2>
+                  <span>7-8, May, 2018</span>
+                </div>
+              </div>
+              <div class="content-main">
+                <div class="content-main-font">
+                  <h2>VENUE</h2>
+                  <span>Radisson Blu Plaza Chongqing</span>
+                  <span>No. 22 Nanbin Road, Chongqing, China.</span>
                 </div>
               </div>
             </div>
             <div class="content-main-font-img">
               <img src="../../../static/img/LY.png"/>
+            </div>
+          </div>
+          <div class="content-main">
+            <div class="content-main-font">
+              <h2>ACCESSABILITY</h2>
+              <h3>Jiangbei International Airport</h3>
+              <span>More than sixty airlines from over seventy different cities throughout the world serve Jiangbei International Airport(CKG) with approximately 600 flights per week.</span>
+              <h3>Additional International Gateways</h3>
+              <span>Plentiful domestic flights and excellent transport make Chongqing access very convenient. With its close proximity to a airport and a high-speed train station in the city center, Chongqing is so well connected to the rest of CHINA that you can choose to land at any international gateway. For those flying into Beijing Capital (PEK) and Shanghai Pudong (PVG) international airports the transit flight to Chongqing(CKG) is just two and a half hours.
+Jiangbei airport is connected to Chongqing via right rail service, convenient fixed-price shuttle buses, and taxis.</span>
+              <h3>Domestic Access to ChongQing</h3>
+              <span>Chongqing is convenient for travelling from other parts of China. Almost all major cities are connected to Chongqing by high-speed railway,such as ChengDu, WuHan, GuangZhou and GuiYang, as well as other destinations all over the country.​</span>
+              <h3>The Hotel</h3>
+              <span>The Radisson Blu Plaza Chongqing is located in Nanbin Road. It takes about 1 hour from Jiangbei airport to the hotel by taxi. You can easily reach this hotel by taxi. Also, Shuttle bus from the airport to hotel will be provided in the morning and evening during this congress by the host team.</span>
             </div>
           </div>
           <div class="content-main">
@@ -46,7 +66,7 @@
           <div class="content-main">
             <div class="content-main-font">
               <h2>CURRENCY </h2>
-              <span>The RMB is the official currency of Chongqing. Currency exchange can be made in most banks.</span>
+              <span>The RMB is the official currency of Chongqing. Currency exchange can be made in airport and most local banks.</span>
             </div>
           </div>
           <div class="content-main">
@@ -55,21 +75,20 @@
           <div class="content-main">
             <div class="content-main-font">
               <h2>CLIMATE</h2>
-              <span>Chongqing is an amazing city with long history and colorful cuisine culture. The meeting will be held in early summer, and It is the most pleasant season in Chongqing as well as the whole China. The average temperature during the day reaches a high of 30°C, and at night dip down to around 20°C.</span>
+              <span>The average temperature during the the meeting period would be between 20℃ and 30℃</span>
             </div>
           </div>
           <div class="content-main">
             <div class="content-main-font">
               <h2>LIABILITY AND INSURANCE</h2>
-              <span>The Meeting Secretariat and Organisers cannot accept liability for personal accidents or loss of or damage to private property of participants. Participants are advised to take out their own personal travel and health insurance for their trip.</span>
+              <span>The Meeting Secretariat and Organizers cannot accept liability for personal accidents or loss of or damage to private property of participants. Participants are advised to take out their own personal travel and health insurance for their trip.</span>
             </div>
           </div>
           <div class="content-main">
             <div class="content-main-font">
               <h2>APSID 2018 MEETING SECRETARIAT</h2>
-              <span>Yunfei An</span>
-              <span>Tel: 86+13896187845</span>
-              <span>Email anyf82@aliyun.com</span>
+              <span>Please do not hesitate to contact the Secretariat if you require any additional information or assistance. Please address all correspondence to: anyf82@aliyun.com
+Or you can text to : 86+13896187845</span>
             </div>
           </div>
         </div>
@@ -96,6 +115,7 @@
     width: 75%;
     margin: 0 auto;
   }
+
   .menu {
     margin-top: 6rem;
     width: 100%;
@@ -166,7 +186,8 @@
     width: 80%;
     margin-left: 2rem;
   }
-  .content-main-font{
+
+  .content-main-font {
   }
 
   .content-main-font-box {
@@ -183,7 +204,8 @@
   .content-main-font-img img {
     width: 100%;
   }
-  .content-main-font h2{
+
+  .content-main-font h2 {
     display: block;
     margin-left: 1rem;
     font-size: 1.2rem;
@@ -191,6 +213,16 @@
     text-align: left;
     font-family: sans-serif;
   }
+
+  .content-main-font h3 {
+    display: block;
+    margin-left: 1rem;
+    font-size: 1rem;
+    line-height: 3rem;
+    text-align: left;
+    font-family: sans-serif;
+  }
+
   .content-main-font span {
     display: block;
     margin-left: 1rem;
