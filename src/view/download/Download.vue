@@ -40,6 +40,7 @@
 <style scoped>
   .content-box {
     width: 75%;
+    min-height: 400px;
     margin: 0 auto;
   }
   .content-titel {
