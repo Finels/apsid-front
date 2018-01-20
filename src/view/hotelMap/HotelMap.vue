@@ -49,6 +49,7 @@
   .map-box {
     width: 100%;
     border: 0.1rem solid #f15a22;
+    margin-top: 1rem;
   }
 
   .map-box img {

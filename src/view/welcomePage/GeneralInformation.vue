@@ -52,7 +52,7 @@
               <span>Plentiful domestic flights and excellent transport make Chongqing access very convenient. With its close proximity to a airport and a high-speed train station in the city center, Chongqing is so well connected to the rest of CHINA that you can choose to land at any international gateway. For those flying into Beijing Capital (PEK) and Shanghai Pudong (PVG) international airports the transit flight to Chongqing(CKG) is just two and a half hours.
 Jiangbei airport is connected to Chongqing via right rail service, convenient fixed-price shuttle buses, and taxis.</span>
               <h3>Domestic Access to ChongQing</h3>
-              <span>Chongqing is convenient for travelling from other parts of China. Almost all major cities are connected to Chongqing by high-speed railway,such as ChengDu, WuHan, GuangZhou and GuiYang, as well as other destinations all over the country.​</span>
+              <span>Chongqing is convenient for travelling from other parts of China. Almost all major cities are connected to Chongqing by high-speed railway, such as ChengDu, WuHan, GuangZhou and GuiYang, as well as other destinations all over the country.​</span>
               <h3>The Hotel</h3>
               <span>The Radisson Blu Plaza Chongqing is located in Nanbin Road. It takes about 1 hour from Jiangbei airport to the hotel by taxi. You can easily reach this hotel by taxi. Also, Shuttle bus from the airport to hotel will be provided in the morning and evening during this congress by the host team.</span>
             </div>
@@ -75,7 +75,7 @@ Jiangbei airport is connected to Chongqing via right rail service, convenient fi
           <div class="content-main">
             <div class="content-main-font">
               <h2>CLIMATE</h2>
-              <span>The average temperature during the the meeting period would be between 20℃ and 30℃</span>
+              <span>The average temperature during the the meeting period would be between 20℃ and 30℃.</span>
             </div>
           </div>
           <div class="content-main">
@@ -88,7 +88,7 @@ Jiangbei airport is connected to Chongqing via right rail service, convenient fi
             <div class="content-main-font">
               <h2>APSID 2018 MEETING SECRETARIAT</h2>
               <span>Please do not hesitate to contact the Secretariat if you require any additional information or assistance. Please address all correspondence to: anyf82@aliyun.com
-Or you can text to : 86+13896187845</span>
+Or you can text to: 86+13896187845</span>
             </div>
           </div>
         </div>

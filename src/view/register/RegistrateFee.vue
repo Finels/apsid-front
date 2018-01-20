@@ -36,7 +36,7 @@
             <p style="padding-left: 2rem;">5.Swift Code ：BKCHCNBJ59A</p>
             <h3>Attention</h3>
             <p>
-              remittors please be sure to indicate in the remittance column "Registration Code+APSID+name" and send cash remittance by the photo file to e-mail anyf82@aliyun.com or zengni-xiao.mao@163.com.</p>
+              Remittors please be sure to indicate in the remittance column "Registration Code+APSID+name" and send cash remittance by the photo file to e-mail anyf82@aliyun.com or zengni-xiao.mao@163.com.</p>
           </div>
         </el-card>
       </el-col>

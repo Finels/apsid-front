@@ -95,7 +95,7 @@
             </div>
             <div class="content-main-font">
               <h2>Prof. Xiqiang Yang</h2>
-              <span>Professor of Pediatrics, Children’s Hospital of Chonqing Medical University</span>
+              <span>Professor of Pediatrics, Children's Hospital of Chonqing Medical University</span>
               <span>Pre-President, Chinese Society of Pediatric Immunology China</span>
             </div>
           </div>

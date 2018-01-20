@@ -8,9 +8,8 @@
           </div>
           <div class="content-titel-box">
             <span>Chongqing is a major city in southwest China. Administratively, it is one of China's four direct-controlled municipalities (the other three are Beijing, Shanghai and Tianjin), and the only such municipality in China located far away from the coast.</span>
-            <span>Chongqing was called Yu Prefecture in ancient times. It received its current name in 1189, after Prince Zhao Dun of the Southern Song Dynasty described his crowning as king and then Emperor Guangzong as a "double celebration". In his honour, Yu Prefecture was therefore renamed </span>
-            <span>Chongqing subprefecture marking the occasion of his enthronement.</span>
-            <span>During the World War Ⅱ, it was the provisional capital of China.</span>
+            <span>Chongqing was called Yu Prefecture in ancient times. It received its current name in 1189, after Prince Zhao Dun of the Southern Song Dynasty described his crowning as king and then Emperor Guangzong as a "double celebration". In his honour, Yu Prefecture was therefore renamed Chongqing subprefecture marking the occasion of his enthronement.</span>
+            <span>During the World War Ⅱ, Chongqing was the provisional capital of China.</span>
           </div>
           <div class="content-main">
             <div class="content-main-img">
@@ -27,7 +26,7 @@
               <img src="../../../static/img/about/JFB.jpg"/>
             </div>
             <div class="content-main-box">
-              <span>Jiefangbei (Monument for Liberation),is located in the central part of Yuzhong district, is a monument as one of the landmark buildings in Chongqing. The height of this monument is 27.5 meters, and it is equipped with four clocks facing four directions on the top. The monument was built in 1940 on March 12th (Memorial Day of Sun Yat-sen’s death) and completed in 1941. In order to encourage Chinese people to win the World War Ⅱ, it was named “Spiritual Fortress” at first, after the liberation war, it was named “Monument of Victory”. this name was given by Marshal Liu Bocheng in 1950,  A.K.A Jie fang bei in Chinese. Jie fang bei is the most famous landmark of Chongqing, and as time goes by, Jiefangbei area has become a fascinating shopping district.</span>
+              <span>Jiefangbei (Monument for Liberation), is located in the central part of Yuzhong district, is a monument as one of the landmark buildings in Chongqing. The height of this monument is 27.5 meters, and it is equipped with four clocks facing four directions on the top. The monument was built in 1940 on March 12th (Memorial Day of Sun Yat-sen's death) and completed in 1941. In order to encourage Chinese people to win the World War Ⅱ, it was named "Spiritual Fortress" at first, after the liberation war, it was named "Monument of Victory". This name was given by Marshal Liu Bocheng in 1950,  A.K.A Jie fang bei in Chinese. Jie fang bei is the most famous landmark of Chongqing, and as time goes by, Jiefangbei area has become a fascinating shopping district.</span>
             </div>
           </div>
           <div class="content-main">
@@ -36,7 +35,7 @@
               <img src="../../../static/img/about/SX.jpg"/>
             </div>
             <div class="content-main-box content-main-box-3">
-              <span>The Three Gorges are three adjacent gorges along the middle reaches of the Yangtze River. They are known for their scenery, and the “Three Gorges Scenic Area” is classified as the AAAAA scenic area(the highest level) by the China National Tourism Administration.</span>
+              <span>The Three Gorges are three adjacent gorges along the middle reaches of the Yangtze River. They are known for their scenery, and the "Three Gorges Scenic Area" is classified as the AAAAA scenic area(the highest level) by the China National Tourism Administration.</span>
             </div>
           </div>
           <div class="content-main">
@@ -45,7 +44,7 @@
               <img src="../../../static/img/about/DZSK.jpg"/>
             </div>
             <div class="content-main-box content-main-box-4">
-              <span>The Dazu Rock Carvings are a series of Chinese religious sculptures and carvings located in Dazu District (about 100km away from downtown of Chong Qing), Chongqing. The carvings date back as far as the 7th century AD, depicting and influenced by Buddhist, Confucian and Taoist beliefs. Some are in rock-cut cave shrines, in the usual Chinese Buddhist style, but many others are rock reliefs carved into the open rock faces.Dazu Rock Carvings were designated as World Heritage Site in 1999.</span>
+              <span>The Dazu Rock Carvings are a series of Chinese religious sculptures and carvings located in Dazu District (about 100km away from downtown of Chong Qing), Chongqing. The carvings date back as far as the 7th century AD, depicting and influenced by Buddhist, Confucian and Taoist beliefs. Some are in rock-cut cave shrines, in the usual Chinese Buddhist style, but many others are rock reliefs carved into the open rock faces. Dazu Rock Carvings were designated as World Heritage Site in 1999.</span>
             </div>
           </div>
         </div>
@@ -56,7 +55,7 @@
           <div class="content-main content-main-2">
             <div class="content-main-font">
               <h2>Plane</h2>
-              <span>Land at the Jiangbei international airport which is 30km away from the center of Chongqing. Served by main international airlines and it’s just a 3-hours flight distance for  you to start from Beijing, or Shanghai or  Hong Kong to get to our city.</span>
+              <span>Land at the Jiangbei international airport which is 30km away from the center of Chongqing. Served by main international airlines and it's just a 3-hours flight distance for  you to start from Beijing, or Shanghai or  Hong Kong to get to our city.</span>
             </div>
             <div class="content-main-font">
               <h2>Train</h2>
@@ -64,7 +63,7 @@
             </div>
             <div class="content-main-font">
               <h2>Taxi</h2>
-              <span>Because of the rugged terrain, Chongqing is known as the magic city in China. If you want to go sightseeing, taxi is a good option. The fare starts from ￥10 for the first 3 kilometers, afterwards ￥2 for each kilometer, (During 11:00pm~6:00am, The fare starts from ￥11). It costs about ￥60 from Jiangbei international airport to downtown area and 30RMB from Chongqingbei railway station to downtown area.</span>
+              <span>Because of the rugged terrain, Chongqing is known as the magic city in China. If you want to go sightseeing, taxi is a good option. The fare starts from ¥10 for the first 3 kilometers, afterwards ¥2 for each kilometer, (During 11:00pm~6:00am, The fare starts from ¥11). It costs about ¥60 from Jiangbei international airport to downtown area and 30RMB from Chongqingbei railway station to downtown area.</span>
             </div>
             <div class="content-main-font">
               <h2>Light rail</h2>
@@ -121,7 +120,7 @@
               <img src="../../../static/img/about/climeat.png"/>
             </div>
             <div class="climeat-box-font">
-              <span>Chongqing is known as the “foggy city”, there are many foggy days in a year. Chongqing has a monsoon-influenced humid subtropical climate (similar to Shanghai), and for most of the year experiences very wet conditions.</span>
+              <span>Chongqing is known as the "foggy city", there are many foggy days in a year. Chongqing has a monsoon-influenced humid subtropical climate (similar to Shanghai), and for most of the year experiences very wet conditions.</span>
             </div>
           </div>
         </div>
@@ -265,21 +264,11 @@
 
   .content-main-box span {
     display: block;
-    text-indent: 2rem;
     font-size: 1rem;
     line-height: 2rem;
     text-align: left;
     color: #013763;
-    font-family: sans-serif;
-  }
-
-  .content-main-box-3 span {
     margin-top: 2rem;
-    font-family: sans-serif;
-  }
-
-  .content-main-box-4 span {
-    margin-top: 3rem;
     font-family: sans-serif;
   }
 
