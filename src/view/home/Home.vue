@@ -22,7 +22,7 @@
               <span>CONFERENCE DATE</span>
               <br>
               <a href="#"><span
-                style="color: #e9669c;font-weight: 400;line-height: 1.5rem;font-size: 1rem">5-6 MAY, 2018, Chongqing, China</span></a>
+                style="color: #e9669c;font-weight: 400;line-height: 1.5rem;font-size: 1rem">7-8 MAY, 2018, Chongqing, China</span></a>
             </div>
             <div class="home-right-host">
               <span>HOST UNIT</span>

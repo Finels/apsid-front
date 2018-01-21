@@ -96,7 +96,7 @@
             <div class="content-main-font">
               <h2>Prof. Xiqiang Yang</h2>
               <span>Professor of Pediatrics, Children's Hospital of Chonqing Medical University</span>
-              <span>Pre-President, Chinese Society of Pediatric Immunology China</span>
+              <span>Pre-President, Division of Clinical Immunology, Society of Pediatrics, Chinese Medical Association</span>
             </div>
           </div>
           <div class="content-main">
@@ -162,7 +162,7 @@
             <div class="content-main-font">
               <h2>Prof. Kunling Shen</h2>
               <span>Respiratory Department, Beijing Children's Hospital, Capital Medical University</span>
-              <span>Immediate Past President, Chinese Paediatric Society</span>
+              <span>Previous President, Society of Pediatrics, Chinese Medical Association</span>
             </div>
           </div>
           <div class="content-main">
@@ -184,7 +184,7 @@
               <h2>Prof. Xiaodong Zhao</h2>
               <span>Chair, Clinical Care Working Party, APSID</span>
               <span>Professor of Pediatrics Children's Hospital, Chonqing Medical University</span>
-              <span>President, Chinese Society of Pediatric Immunology China</span>
+              <span>President, Division of Clinical Immunology, Society of Pediatrics, Chinese Medical Association</span>
             </div>
           </div>
           <div class="content-main">
@@ -194,7 +194,7 @@
             <div class="content-main-font">
               <h2>Dr Huawei Mao</h2>
               <span>Associate Consultant, The University of Hong Kong-Shenzhen Hospital</span>
-              <span>Vice chairman, Youth Committee, Chinese Society of Pediatric Immunology China</span>
+              <span>Vice chairman, Youth Committee, Division of Clinical Immunology, Society of Pediatrics, Chinese Medical Association</span>
             </div>
           </div>
         </div>

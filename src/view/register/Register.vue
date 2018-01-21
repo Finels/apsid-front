@@ -35,7 +35,7 @@
               <el-input v-model="registerForm.address"></el-input>
             </el-form-item>
             <el-form-item label="Email" prop="email">
-              <el-input v-model.trim="registerForm.email" placeholder="Please enter a mailbox"></el-input>
+              <el-input v-model.trim="registerForm.email" placeholder="Please enter a email"></el-input>
             </el-form-item>
             <el-form-item label="Verification Code" prop="verCode">
               <el-input v-model.trim="registerForm.verCode" placeholder="Please enter the verification code"

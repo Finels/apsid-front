@@ -24,19 +24,19 @@
             <h3>Registration Fee</h3>
             <span style="line-height: 2rem; margin-left:0.8rem;margin-right:0.4rem;float:left;display:block;color: red">*</span>
             <p>
-              Registration fee includes registration fee, textbook materials and light lunch costs，While hotel accommodation is not covered.</p>
+              Registration fee includes registration fee, textbook materials and light lunch costs, While hotel accommodation is not covered.</p>
           </div>
           <div class="fee-box">
             <h3>Bank Draft</h3>
             <P>Registration payment by Bank transfer or on-site payment, Bank transfer is recommended.</P>
-            <p style="padding-left: 2rem;">1.Account Name：Chongqing swan international tourism co., LTD</p>
-            <p style="padding-left: 2rem;">2.Account No : 113004875475</p>
-            <p style="padding-left: 2rem;">3.Bank Name：The bank of China chongqing branch sales department</p>
-            <p style="padding-left: 2rem;">4.Bank Address :Zhongshan 218 all the way yuzhong district of chongqing</p>
-            <p style="padding-left: 2rem;">5.Swift Code ：BKCHCNBJ59A</p>
+            <p style="padding-left: 2rem;">1.Account Name: Chongqing swan international tourism co., LTD</p>
+            <p style="padding-left: 2rem;">2.Account No: 113004875475</p>
+            <p style="padding-left: 2rem;">3.Bank Name: The bank of China chongqing branch sales department</p>
+            <p style="padding-left: 2rem;">4.Bank Address: Zhongshan 218 all the way yuzhong district of chongqing</p>
+            <p style="padding-left: 2rem;">5.Swift Code: BKCHCNBJ59A</p>
             <h3>Attention</h3>
             <p>
-              Remittors please be sure to indicate in the remittance column "Registration Code+APSID+name" and send cash remittance by the photo file to e-mail anyf82@aliyun.com or zengni-xiao.mao@163.com.</p>
+              Remittors please be sure to indicate in the remittance column "Registration Code+APSID+name" and send cash remittance by the photo file to e-mail anyf82@aliyun.com or zengni-xiao.mao@163.com.</p>
           </div>
         </el-card>
       </el-col>
@@ -63,7 +63,7 @@
           },
           {
             RegistrationTime: 'Attend both summer school and congress',
-            RegistrationPayment: 'RMB ¥2000(summer school)+¥1000(congress)'
+            RegistrationPayment: 'RMB ¥2000(summer school) + ¥1000(congress)'
           }
         ]
       }
