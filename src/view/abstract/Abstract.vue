@@ -3,24 +3,34 @@
     <div class="content-box">
       <el-card class="box-card">
         <div slot="header" class="clearfix">
-          <span>摘要模板</span>
+          <span>Abstract Submission</span>
         </div>
         <el-col :span="16">
           <div class="abstact-form">
             <el-form ref="abstactForm" :model="abstactForm" :rules="rules" :inline="true">
-              <el-form-item label="姓 名" prop="userName">
-                <el-input v-model="abstactForm.userName"></el-input>
+              <el-form-item label="Forum" prop="forum">
+                <el-select v-model="value" placeholder="Please choose forum">
+                  <el-option
+                    v-for="item in options"
+                    :key="item.value"
+                    :label="item.label"
+                    :value="item.value">
+                  </el-option>
+                </el-select>
               </el-form-item>
-              <el-form-item label="单 位" prop="company">
-                <el-input v-model="abstactForm.company"></el-input>
+              <el-form-item label="Registration Code" prop="regCode">
+                <el-input v-model.trim="abstactForm.regCode" placeholder="Please input Registration Code from email"></el-input>
               </el-form-item>
-              <el-form-item label="联系电话" prop="telephone">
-                <el-input v-model.trim="abstactForm.telephone" placeholder="请输入手机或座机号"></el-input>
+              <el-form-item label="Verification Code" prop="verCode">
+                <el-input v-model.trim="abstactForm.verCode" placeholder="Please enter the verification code">
+                </el-input>
               </el-form-item>
-              <el-form-item label="电子邮箱" prop="email">
-                <el-input v-model.trim="abstactForm.email" placeholder="请输入电子邮箱"></el-input>
+              <el-form-item>
+                <div class="verify-code-box">
+                  <img id="veryCode" @click="queryCode" title="Not clear, change one" class="verify-code"/>
+                </div>
               </el-form-item>
-              <el-form-item label="上传论文">
+              <el-form-item label="Upload Abstract">
                 <el-upload
                   ref="upload"
                   :action="upDataForm.upUrl"
@@ -31,19 +41,19 @@
                   <el-button slot="trigger" size="small" type="primary">选取文件</el-button>
                   <el-button style="margin-left: 10px;" size="small" type="success" @click="submitUpload">上传文件
                   </el-button>
-                  <span>上传文件必须是PDF或者word且大小不能超过10M</span>
+                  <span>Upload document must be pdf or word, and file size less than 5M</span>
                 </el-upload>
               </el-form-item>
               <el-form-item class="abstactForm-button">
-                <el-button type="success" @click="saveAbstact('abstactForm')">提交信息</el-button>
+                <el-button type="success" @click="saveAbstact('abstactForm')">Submit</el-button>
               </el-form-item>
             </el-form>
           </div>
         </el-col>
-        <el-col :span="8">
+        <el-col :span="7" :pull="1">
           <div class="abstact-download">
-            <h1>摘要模板下载地址：</h1>
-            <a href="javascript:void(0)"><span>摘要模板 - 中文版.docx</span></a>
+            <h1>Deadline</h1>
+            <span>20 March, 2018</span>
           </div>
         </el-col>
       </el-card>
@@ -61,30 +71,39 @@
     data () {
       return {
         rules: {
-          userName: [
-            {required: true, message: '姓名不能为空', trigger: 'blur'}
+          forum: [
+            {required: true, message: 'forum can not be null', trigger: 'blur'}
           ],
-          company: [
-            {required: true, message: '单位不能为空', trigger: 'blur'}
+          regCode: [
+            {required: true, message: 'registration code can not be null', trigger: 'blur'}
           ],
-          telephone: [
-            {required: true, message: '联系方式不能为空', trigger: 'blur'}
-          ],
-          email: [
-            {required: true, message: '电子邮箱不能为空', trigger: 'blur'}
+          verCode: [
+            {required: true, message: 'verification code can not be null', trigger: 'blur'}
           ]
         },
         abstactForm: {
-          userName: '',
-          company: '',
-          telephone: '',
-          email: ''
+          forum: '',
+          regCode: '',
+          verCode: ''
         },
         upDataForm: {
           'isUpload': false,
           'upUrl': upDataUrl
         },
-        fileList: []
+        fileList: [],
+        options: [{
+          value: '选项1',
+          label: 'The main Symposium for PID'
+        }, {
+          value: '选项2',
+          label: 'Rheumatology and Allergic Diseases'
+        }, {
+          value: '选项3',
+          label: 'Respiratory and Infectious Disease'
+        }, {
+          value: '选项4',
+          label: 'Hematology and Transplantation'
+        }]
       }
     },
     methods: {
@@ -116,15 +135,15 @@
   }
   .abstact-download {
     width: 100%;
-    margin-top: 5rem;
+    margin-top: 3rem;
   }
 
   .abstact-download h1 {
     display: block;
     text-align: center;
     color: #013763;
-    font-size: 1.2rem;
-    line-height: 4rem;
+    font-size: 1.1rem;
+    line-height: 3rem;
     font-family: sans-serif;
     border-bottom: 0.1rem solid #f15a22;
   }
@@ -135,7 +154,7 @@
     line-height: 3rem;
     font-family: sans-serif;
     color: #3a8ee6;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
   }
 
   .abstact-form span {
@@ -145,5 +164,12 @@
 
   .abstactForm-button {
     margin-left: 10rem;
+  }
+  .el-card__header .clearfix span{
+    font-size: 1.2rem;
+  }
+  .verify-code-box {
+    width: 8rem;
+    height: 2.2rem;
   }
 </style>

@@ -44,7 +44,7 @@
             </el-form-item>
             <el-form-item>
               <div class="verify-code-box">
-                <img id="veryCode" @click="queryCode" title="看不清，换一张" class="verify-code"/>
+                <img id="veryCode" @click="queryCode" title="Not clear, change one" class="verify-code"/>
               </div>
             </el-form-item>
           </el-form>
@@ -121,7 +121,7 @@
               if (res.data.resultCode === 'success') {
                 this.$message({
                   showClose: true,
-                  message: 'Register was successful,Please take care to check the mail！',
+                  message: 'Register successfully, please check the email!',
                   type: 'success'
                 })
                 this.resetForm()

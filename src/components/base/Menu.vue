@@ -21,6 +21,7 @@
       <el-menu-item index="/register">Registration Form</el-menu-item>
       <el-menu-item index="/registerFee">Registration Fee</el-menu-item>
     </el-submenu>
+    <el-menu-item index="/abstract">ABSTRACT</el-menu-item>
     <el-menu-item index="/hotelMap">ACCOMMODATION</el-menu-item>
     <el-menu-item index="/contactUs">CONTACT US</el-menu-item>
     <el-menu-item index="/download">DOWNLOADS</el-menu-item>

@@ -108,9 +108,19 @@
       // this.$http.get(queryHomeContent).then(res => {
       // this.homeContentData = res.data
       // })
+      this.openMsg()
     },
     methods: {
       callback() {
+      },
+      openMsg() {
+        this.$notify({
+          title: 'Prompt',
+          dangerouslyUseHTMLString: true,
+          message: '<a href="#/abstract" style="color: #013763;font-family: Arial, Helvetica Neue, Helvetica, sans-serif;font-weight: bold;">Welcome to submit abstract!</a>',
+          duration: 0,
+          offset: 30
+        })
       }
     }
   }
