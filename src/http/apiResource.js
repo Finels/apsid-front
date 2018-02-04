@@ -20,5 +20,5 @@ export const registerSave = baseUrl + 'home/user.action'
 export const veryCode = baseUrl + 'home/very.action'
 
 // 上传论文
-export const upDataUrl = baseUrl + 'upload'
+export const upDataUrl = baseUrl + 'home/upload.action'
 

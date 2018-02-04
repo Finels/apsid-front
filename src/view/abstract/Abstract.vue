@@ -5,11 +5,11 @@
         <div slot="header" class="clearfix">
           <span>Abstract Submission</span>
         </div>
-        <el-col :span="16">
+        <el-col :span="18">
           <div class="abstact-form">
             <el-form ref="abstactForm" :model="abstactForm" :rules="rules" :inline="true">
               <el-form-item label="Forum" prop="forum">
-                <el-select v-model="value" placeholder="Please choose forum">
+                <el-select v-model.trim="abstactForm.forum" placeholder="please choose forum">
                   <el-option
                     v-for="item in options"
                     :key="item.value"
@@ -19,10 +19,10 @@
                 </el-select>
               </el-form-item>
               <el-form-item label="Registration Code" prop="regCode">
-                <el-input v-model.trim="abstactForm.regCode" placeholder="Please input Registration Code from email"></el-input>
+                <el-input v-model.trim="abstactForm.regCode" placeholder="please input Registration Code from email"></el-input>
               </el-form-item>
               <el-form-item label="Verification Code" prop="verCode">
-                <el-input v-model.trim="abstactForm.verCode" placeholder="Please enter the verification code">
+                <el-input v-model.trim="abstactForm.verCode" placeholder="please input the verification code">
                 </el-input>
               </el-form-item>
               <el-form-item>
@@ -33,24 +33,27 @@
               <el-form-item label="Upload Abstract">
                 <el-upload
                   ref="upload"
-                  :action="upDataForm.upUrl"
+                  :action="abc"
                   :on-preview="handlePreview"
                   :on-remove="handleRemove"
+                  :limit="1"
                   :file-list="fileList"
-                  :auto-upload="false">
-                  <el-button slot="trigger" size="small" type="primary">选取文件</el-button>
-                  <el-button style="margin-left: 10px;" size="small" type="success" @click="submitUpload">上传文件
-                  </el-button>
-                  <span>Upload document must be pdf or word, and file size less than 5M</span>
+                  :auto-upload="false"
+                  :beforeUpload="handleBefore"
+                  accept=".doc, .docx, .pdf"
+                  :onError="uploadError"
+                  :onSuccess="uploadSuccess">
+                  <el-button slot="trigger" size="small" type="primary" style="font-weight: bold;">select file</el-button>
+                  <div slot="tip" class="el-upload__tip tipc">upload document must be pdf or word, and the size of file less than 5M</div>
                 </el-upload>
               </el-form-item>
               <el-form-item class="abstactForm-button">
-                <el-button type="success" @click="saveAbstact('abstactForm')">Submit</el-button>
+                <el-button type="success" @click="submitUpload" style="font-family: Arial;font-weight: bold;">Upload</el-button>
               </el-form-item>
             </el-form>
           </div>
         </el-col>
-        <el-col :span="7" :pull="1">
+        <el-col :span="6" :pull="1">
           <div class="abstact-download">
             <h1>Deadline</h1>
             <span>20 March, 2018</span>
@@ -66,21 +69,35 @@
    * Created by xzc
    * 描述:
    */
-  import {registerSave, upDataUrl} from '../../http/apiResource'
+  import {veryCode, upDataUrl} from '../../http/apiResource'
+  import axios from 'axios'
   export default {
     data () {
       return {
         rules: {
           forum: [
-            {required: true, message: 'forum can not be null', trigger: 'blur'}
+            {required: true, message: "forum can't be null", trigger: 'blur'}
           ],
           regCode: [
-            {required: true, message: 'registration code can not be null', trigger: 'blur'}
+            {required: true, message: "registration code can't be null", trigger: 'blur'}
           ],
           verCode: [
-            {required: true, message: 'verification code can not be null', trigger: 'blur'}
+            {required: true, message: "verification code can't be null", trigger: 'blur'}
           ]
         },
+        options: [{
+          value: '1',
+          label: 'The main Symposium for PID'
+        }, {
+          value: '2',
+          label: 'Rheumatology and Allergic Diseases'
+        }, {
+          value: '3',
+          label: 'Respiratory and Infectious Disease'
+        }, {
+          value: '4',
+          label: 'Hematology and Transplantation'
+        }],
         abstactForm: {
           forum: '',
           regCode: '',
@@ -90,39 +107,86 @@
           'isUpload': false,
           'upUrl': upDataUrl
         },
-        fileList: [],
-        options: [{
-          value: '选项1',
-          label: 'The main Symposium for PID'
-        }, {
-          value: '选项2',
-          label: 'Rheumatology and Allergic Diseases'
-        }, {
-          value: '选项3',
-          label: 'Respiratory and Infectious Disease'
-        }, {
-          value: '选项4',
-          label: 'Hematology and Transplantation'
-        }]
+        fileList: []
       }
     },
+    mounted: function () {
+      this.queryCode()
+    },
     methods: {
-      saveAbstact(formName) {
-        this.$refs[formName].validate((valid) => {
+      submitUpload() {
+        this.$refs['abstactForm'].validate((valid) => {
           if (valid) {
-            this.$http.post(registerSave, this.abstactForm).then(res => {
-            })
+            this.$refs.upload.submit()
           }
         })
-      },
-      submitUpload() {
-        this.$refs.upload.submit()
       },
       handleRemove(file, fileList) {
         console.log(file, fileList)
       },
       handlePreview(file) {
         console.log(file)
+      },
+      queryCode() {
+        this.$http.get(veryCode).then(res => {
+          this.veryCodeStr = res.data.resultBody.verCodeImg
+          document.getElementById('veryCode').src = 'data:image/jpg;base64,' + this.veryCodeStr
+        })
+      },
+      handleBefore(file) {
+        const doc = file.name.split('.')[1] === 'doc'
+        const docx = file.name.split('.')[1] === 'docx'
+        const pdf = file.name.split('.')[1] === 'pdf'
+        if (!doc && !docx && !pdf) {
+          this.$message({
+            showClose: true,
+            message: 'The file must be word or pdf format!',
+            type: 'warning'
+          })
+        }
+        const isLt5M = file.size / 1024 / 1024 < 5
+        if (!isLt5M) {
+          this.$message({
+            showClose: true,
+            message: 'The file size can\'t exceed 5M!',
+            type: 'warning'
+          })
+        }
+        let formData = new FormData()
+        formData.append('file', file)
+        formData.append('forum', this.abstactForm.forum)
+        formData.append('regCode', this.abstactForm.regCode)
+        formData.append('verCode', this.abstactForm.verCode)
+        this.upFile(formData).then(res => {
+          console.log(res)
+        })
+        return (doc || docx || pdf) && isLt5M
+      },
+      uploadError(response, file, fileList) {
+        this.$message({
+          showClose: true,
+          message: 'The file upload failed!',
+          type: 'error'
+        })
+      },
+      uploadSuccess(response, file, fileList) {
+        this.$message({
+          showClose: true,
+          message: 'The file upload success!',
+          type: 'success'
+        })
+        this.resetForm()
+      },
+      resetForm () {
+        this.$refs.abstactForm.resetFields()
+      },
+      upFile(data) {
+        return axios({
+          method: 'post',
+          url: upDataUrl,
+          timeout: 20000,
+          data: data
+        })
       }
     }
   }
@@ -157,9 +221,10 @@
     font-size: 1.2rem;
   }
 
-  .abstact-form span {
+  .tipc {
     color: #f15a22;
     font-family: sans-serif;
+    margin-top: 0;
   }
 
   .abstactForm-button {
@@ -171,5 +236,16 @@
   .verify-code-box {
     width: 8rem;
     height: 2.2rem;
+  }
+
+  .verify-code {
+    display: block;
+    font-size: 0.6rem;
+    width: 8rem;
+    height: 2.2rem;
+    color: #cccccc;
+    cursor: pointer;
+    border: 0.05rem solid #ffffff;
+    vertical-align: middle;
   }
 </style>
