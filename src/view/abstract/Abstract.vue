@@ -5,7 +5,7 @@
         <div slot="header" class="clearfix">
           <span>Abstract Submission</span>
         </div>
-        <el-col :span="18">
+        <el-col :span="17">
           <div class="abstact-form">
             <el-form ref="abstactForm" :model="abstactForm" :rules="rules" :inline="true">
               <el-form-item label="Forum" prop="forum">
@@ -19,7 +19,7 @@
                 </el-select>
               </el-form-item>
               <el-form-item label="Registration Code" prop="regCode">
-                <el-input v-model.trim="abstactForm.regCode" placeholder="please input Registration Code from email"></el-input>
+                <el-input v-model.number="abstactForm.regCode" placeholder="please input number of RN Code"></el-input>
               </el-form-item>
               <el-form-item label="Verification Code" prop="verCode">
                 <el-input v-model.trim="abstactForm.verCode" placeholder="please input the verification code">
@@ -54,10 +54,11 @@
             </el-form>
           </div>
         </el-col>
-        <el-col :span="6" :pull="1">
+        <el-col :span="7" :pull="1">
           <div class="abstact-download">
             <h1>Deadline</h1>
             <span>20 March, 2018</span>
+            <span style="color: #8c939d;text-align: center;font-size: 0.8rem"><span style="color: #F56C6C;display: inline;font-size: 0.8rem">*</span>Upload again will cover the last submission.</span>
           </div>
         </el-col>
       </el-card>
@@ -79,7 +80,8 @@
             {required: true, message: "forum can't be null", trigger: 'blur'}
           ],
           regCode: [
-            {required: true, message: "registration code can't be null", trigger: 'blur'}
+            {required: true, message: "RN Code from email can't be null", trigger: 'blur'},
+            {type: 'number', message: 'RN Code must be number'}
           ],
           verCode: [
             {required: true, message: "verification code can't be null", trigger: 'blur'}
@@ -168,6 +170,8 @@
           type: 'success'
         })
         this.resetForm()
+        this.$ref.upload.clearFiles()
+        this.queryCode()
       },
       resetForm () {
         this.$refs.abstactForm.resetFields()
