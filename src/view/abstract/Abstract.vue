@@ -33,7 +33,8 @@
               <el-form-item label="Upload Abstract">
                 <el-upload
                   ref="upload"
-                  :action="abc"
+                  :action="upDataForm.upUrl"
+                  :data="abstactForm"
                   :on-preview="handlePreview"
                   :on-remove="handleRemove"
                   :limit="1"
@@ -70,7 +71,6 @@
    * 描述:
    */
   import {veryCode, upDataUrl} from '../../http/apiResource'
-  import axios from 'axios'
   export default {
     data () {
       return {
@@ -152,14 +152,6 @@
             type: 'warning'
           })
         }
-        let formData = new FormData()
-        formData.append('file', file)
-        formData.append('forum', this.abstactForm.forum)
-        formData.append('regCode', this.abstactForm.regCode)
-        formData.append('verCode', this.abstactForm.verCode)
-        this.upFile(formData).then(res => {
-          console.log(res)
-        })
         return (doc || docx || pdf) && isLt5M
       },
       uploadError(response, file, fileList) {
@@ -179,14 +171,6 @@
       },
       resetForm () {
         this.$refs.abstactForm.resetFields()
-      },
-      upFile(data) {
-        return axios({
-          method: 'post',
-          url: upDataUrl,
-          timeout: 20000,
-          data: data
-        })
       }
     }
   }
