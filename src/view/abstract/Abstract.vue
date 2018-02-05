@@ -44,12 +44,18 @@
                   accept=".doc, .docx, .pdf"
                   :onError="uploadError"
                   :onSuccess="uploadSuccess">
-                  <el-button slot="trigger" size="small" type="primary" style="font-weight: bold;">select file</el-button>
-                  <div slot="tip" class="el-upload__tip tipc">upload document must be pdf or word, and the size of file less than 5M</div>
+                  <el-button slot="trigger" size="small" type="primary" :disabled=isvibel style="font-weight: bold;">
+                    select file
+                  </el-button>
+                  <div slot="tip" class="el-upload__tip tipc">
+                    upload document must be pdf or word, and the size of file less than 5M
+                  </div>
                 </el-upload>
               </el-form-item>
               <el-form-item class="abstactForm-button">
-                <el-button type="success" @click="submitUpload" style="font-family: Arial;font-weight: bold;">Upload</el-button>
+                <el-button type="success" @click="submitUpload"
+                           style="font-family: Arial;font-weight: bold;">Upload
+                </el-button>
               </el-form-item>
             </el-form>
           </div>
@@ -57,8 +63,13 @@
         <el-col :span="7" :pull="1">
           <div class="abstact-download">
             <h1>Deadline</h1>
-            <span>20 March, 2018</span>
-            <span style="color: #8c939d;text-align: center;font-size: 0.8rem"><span style="color: #F56C6C;display: inline;font-size: 0.8rem">*</span>Upload again will cover the last submission.</span>
+            <h3>20 March, 2018</h3>
+            <span style="color: #8c939d;text-align: center;font-size: 0.8rem"><span
+              style="color: #F56C6C;display: inline;font-size: 0.8rem">*</span>Upload again will cover the last submission.</span>
+          </div>
+          <div class="abstact-download">
+            <h1>Abstact Template</h1><a href="../../../static/download/Congressabstract.doc" target="_blank">
+            <span class="content-main-font-span">Congress Abstract.doc</span></a>
           </div>
         </el-col>
       </el-card>
@@ -109,19 +120,28 @@
           'isUpload': false,
           'upUrl': upDataUrl
         },
+        isvibel: true,
         fileList: []
       }
     },
     mounted: function () {
       this.queryCode()
     },
+    watch: {
+      'abstactForm.forum': 'seletFile',
+      'abstactForm.regCode': 'seletFile',
+      'abstactForm.verCode': 'seletFile'
+    },
     methods: {
-      submitUpload() {
+      seletFile() {
         this.$refs['abstactForm'].validate((valid) => {
           if (valid) {
-            this.$refs.upload.submit()
+            this.isvibel = false
           }
         })
+      },
+      submitUpload() {
+        this.$refs.upload.submit()
       },
       handleRemove(file, fileList) {
         console.log(file, fileList)
@@ -169,7 +189,7 @@
           message: 'The file upload success!',
           type: 'success'
         })
-        this.resetForm()
+        location.href = '#/'
         this.$ref.upload.clearFiles()
         this.queryCode()
       },
@@ -185,9 +205,13 @@
     width: 75%;
     margin: 0 auto;
   }
+
+  .abstact-form .el-select {
+    width: 12.6rem;
+  }
   .abstact-download {
     width: 100%;
-    margin-top: 3rem;
+    margin-bottom: 2rem;
   }
 
   .abstact-download h1 {
@@ -200,7 +224,7 @@
     border-bottom: 0.1rem solid #f15a22;
   }
 
-  .abstact-download span {
+  .abstact-download h3 {
     display: block;
     text-align: center;
     line-height: 3rem;
@@ -210,7 +234,7 @@
   }
 
   .tipc {
-    color: #f15a22;
+    color: #E6A23C;
     font-family: sans-serif;
     margin-top: 0;
   }
@@ -218,9 +242,11 @@
   .abstactForm-button {
     margin-left: 10rem;
   }
-  .el-card__header .clearfix span{
+
+  .el-card__header .clearfix span {
     font-size: 1.2rem;
   }
+
   .verify-code-box {
     width: 8rem;
     height: 2.2rem;
@@ -235,5 +261,16 @@
     cursor: pointer;
     border: 0.05rem solid #ffffff;
     vertical-align: middle;
+  }
+
+  .content-main-font-span {
+    width: 100%;
+    display: block;
+    font-size: 1rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #e9669c;
+    font-family: sans-serif;
+    text-decoration: underline;
   }
 </style>

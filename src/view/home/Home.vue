@@ -117,8 +117,8 @@
         this.$notify({
           title: 'Prompt',
           dangerouslyUseHTMLString: true,
-          message: '<a href="#/abstract" style="color: #013763;font-family: Arial, Helvetica Neue, Helvetica, sans-serif;font-weight: bold;">Welcome to submit abstract!</a>',
-          duration: 0,
+          message: '<a href="#/abstract">Welcome to submit abstract!</a>',
+          duration: 90000,
           offset: 30
         })
       }

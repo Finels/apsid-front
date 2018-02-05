@@ -48,7 +48,7 @@ body {
 }
 
 .box-card .el-form-item__label {
-  width: 10rem;
+  width: 10.5rem;
   font-size: 1rem;
   font-weight: 500;
 }
@@ -88,6 +88,25 @@ body {
 hr {
   border: 0.03rem solid #ffffff
 }
+
 .el-table .cell {
   text-align: center;
+}
+
+.el-notification__title {
+  color: #00aec9 !important;
+}
+
+.el-notification__content a {
+  color: #e9669c !important;
+  font-weight: normal !important;
+}
+
+.el-notification__content a:hover {
+  color: #e9669c !important;
+  font-weight: normal !important;
+  text-decoration: underline !important;
+}
+.el-menu-item, .el-submenu__title{
+  padding: 0 12px;
 }
