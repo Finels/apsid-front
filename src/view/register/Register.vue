@@ -121,6 +121,7 @@
               if (res.data.resultCode === 'success') {
                 this.$message({
                   showClose: true,
+                  duration: 9000,
                   message: 'Register successfully, please check the email!',
                   type: 'success'
                 })

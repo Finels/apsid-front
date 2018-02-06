@@ -8,14 +8,23 @@
           </div>
           <div class="content-main">
             <div class="content-main-font">
-              <h2>APSID Scientific Congress Information</h2>
-              <span style="margin-left: 1rem;color: #013763">Download address:</span><a href="../../../static/download/APSID%202018%20SCIENTIFIC%20CONGRESS%20INFORMATION.pdf" target="_blank"> <span class="content-main-font-span">APSID 2018 Scientific Congress Information</span></a>
+              <h2>APSID 2018 Scientific Congress Information</h2>
+              <span style="margin-left: 1rem;color: #013763">Download address:</span><a href="../../../static/download/APSID%202018%20SCIENTIFIC%20CONGRESS%20INFORMATION.pdf" target="_blank">
+                <span class="content-main-font-span">APSID 2018 Scientific Congress Information</span></a>
             </div>
           </div>
           <div class="content-main">
             <div class="content-main-font">
               <h2>APSID 2018 Summer School Information</h2>
-              <span style="margin-left: 1rem;color: #013763">Download address:</span><a href="../../../static/download/APSID%202018%20SUMMER%20SCHOOL%20INFORMATION.pdf" target="_blank"> <span class="content-main-font-span">APSID 2018 Summer School Information</span></a>
+              <span style="margin-left: 1rem;color: #013763">Download address:</span><a href="../../../static/download/APSID%202018%20SUMMER%20SCHOOL%20INFORMATION.pdf" target="_blank">
+                <span class="content-main-font-span">APSID 2018 Summer School Information</span></a>
+            </div>
+          </div>
+          <div class="content-main">
+            <div class="content-main-font">
+              <h2>Invitation Letter Form</h2>
+              <span style="margin-left: 1rem;color: #013763">Download address:</span><a href="../../../static/download/Invitation%20Letter%20Form.pdf" target="_blank">
+              <span class="content-main-font-span">Invitation Letter Form</span></a>
             </div>
           </div>
         </div>

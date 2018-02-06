@@ -7,9 +7,12 @@
         </div>
         <el-col :span="17">
           <div class="abstact-form">
+            <p class="abstact-form-promtrn">
+              <span style="color: #f15a22;margin-right: 0.2rem">*</span>Please registrate first, and find registration code in your email which is  necessary for abstract submission.
+            </p>
             <el-form ref="abstactForm" :model="abstactForm" :rules="rules" :inline="true">
               <el-form-item label="Forum" prop="forum">
-                <el-select v-model.trim="abstactForm.forum" placeholder="please choose forum">
+                <el-select v-model.trim="abstactForm.forum" placeholder="please choose the forum">
                   <el-option
                     v-for="item in options"
                     :key="item.value"
@@ -19,7 +22,7 @@
                 </el-select>
               </el-form-item>
               <el-form-item label="Registration Code" prop="regCode">
-                <el-input v-model.number="abstactForm.regCode" placeholder="please input number of RN Code"></el-input>
+                <el-input v-model.number="abstactForm.regCode" placeholder="please input the RN Code"></el-input>
               </el-form-item>
               <el-form-item label="Verification Code" prop="verCode">
                 <el-input v-model.trim="abstactForm.verCode" placeholder="please input the verification code">
@@ -48,7 +51,7 @@
                     select file
                   </el-button>
                   <div slot="tip" class="el-upload__tip tipc">
-                    upload document must be pdf or word, and the size of file less than 5M
+                    upload file must be PDF or word, and the size of file less than 5M
                   </div>
                 </el-upload>
               </el-form-item>
@@ -64,12 +67,17 @@
           <div class="abstact-download">
             <h1>Deadline</h1>
             <h3>20 March, 2018</h3>
-            <span style="color: #8c939d;text-align: center;font-size: 0.8rem"><span
-              style="color: #F56C6C;display: inline;font-size: 0.8rem">*</span>Upload again will cover the last submission.</span>
+            <span class="abstact-unline-span">
+              <span class="unline-span-star">*</span>Upload again will cover the last submission.
+            </span>
           </div>
           <div class="abstact-download">
-            <h1>Abstact Template</h1><a href="../../../static/download/Congressabstract.doc" target="_blank">
-            <span class="content-main-font-span">Congress Abstract.doc</span></a>
+            <h1>Abstact Template</h1>
+            <a href="../../../static/download/Congress%20abstract%20form.doc" target="_blank">
+            <span class="content-main-font-span">Congress Abstract Form.doc</span></a>
+            <span class="abstact-unline-span">
+              <span class="unline-span-star">*</span>Please download the congress abstract template above and follow the structure, font and font size for abstract.
+            </span>
           </div>
         </el-col>
       </el-card>
@@ -177,11 +185,19 @@
         return (doc || docx || pdf) && isLt5M
       },
       uploadError(response, file, fileList) {
-        this.$message({
-          showClose: true,
-          message: 'The file upload failed!',
-          type: 'error'
-        })
+        if (response.data.apiName === 'RNcode verify') {
+          this.$message({
+            showClose: true,
+            message: response.errorDescription,
+            type: 'error'
+          })
+        } else {
+          this.$message({
+            showClose: true,
+            message: 'The file upload failed!',
+            type: 'error'
+          })
+        }
       },
       uploadSuccess(response, file, fileList) {
         this.$message({
@@ -206,9 +222,13 @@
     margin: 0 auto;
   }
 
-  .abstact-form .el-select {
-    width: 12.6rem;
+  .abstact-form-promtrn{
+    color: #606266;
+    margin-top: 0.8rem;
+    margin-bottom: 1.4rem;
+    margin-right: 6rem;
   }
+
   .abstact-download {
     width: 100%;
     margin-bottom: 2rem;
@@ -231,6 +251,17 @@
     font-family: sans-serif;
     color: #3a8ee6;
     font-size: 1.2rem;
+  }
+
+  .abstact-unline-span{
+    color: #7e8c8d;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+  .unline-span-star{
+    color: #F56C6C;
+    display: inline;
   }
 
   .tipc {
@@ -267,7 +298,7 @@
     width: 100%;
     display: block;
     font-size: 1rem;
-    line-height: 2rem;
+    line-height: 3rem;
     text-align: center;
     color: #e9669c;
     font-family: sans-serif;

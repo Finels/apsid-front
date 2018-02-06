@@ -118,7 +118,7 @@
           title: 'Prompt',
           dangerouslyUseHTMLString: true,
           message: '<a href="#/abstract">Welcome to submit abstract!</a>',
-          duration: 90000,
+          duration: 80000,
           offset: 30
         })
       }
