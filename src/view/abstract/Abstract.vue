@@ -185,10 +185,10 @@
         return (doc || docx || pdf) && isLt5M
       },
       uploadError(response, file, fileList) {
-        if (response.data.apiName === 'RNcode verify') {
+        if (response.apiName === 'RNcode verify') {
           this.$message({
             showClose: true,
-            message: response.data.errorDescription,
+            message: response.errorDescription,
             type: 'error'
           })
         } else {
