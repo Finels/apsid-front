@@ -188,7 +188,7 @@
         if (response.data.apiName === 'RNcode verify') {
           this.$message({
             showClose: true,
-            message: response.errorDescription,
+            message: response.data.errorDescription,
             type: 'error'
           })
         } else {
