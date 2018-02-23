@@ -27,11 +27,14 @@ body {
 
 .el-input-group--prepend .el-input__inne {
   background: rgba(0, 0, 0, 0.5) !important;
-
 }
 
 .el-input-group__append, .el-input-group__prepend {
   background: rgba(000, 000, 000, 0.5);
+}
+
+.el-input-group__prepend {
+  background-color: #f5f7fa !important;
 }
 
 .box-card .el-input__inner {

@@ -22,7 +22,9 @@
                 </el-select>
               </el-form-item>
               <el-form-item label="Registration Code" prop="regCode">
-                <el-input v-model.number="abstactForm.regCode" placeholder="please input the RN Code"></el-input>
+                <el-input v-model.number="abstactForm.regCode" placeholder="number of RN Code">
+                  <template slot="prepend">RN</template>
+                </el-input>
               </el-form-item>
               <el-form-item label="Verification Code" prop="verCode">
                 <el-input v-model.trim="abstactForm.verCode" placeholder="please input the verification code">
@@ -185,10 +187,10 @@
         return (doc || docx || pdf) && isLt5M
       },
       uploadError(response, file, fileList) {
-        if (response.apiName === 'RNcode verify') {
+        if (response.data.apiName === 'RNcode verify') {
           this.$message({
             showClose: true,
-            message: response.errorDescription,
+            message: response.data.errorDescription,
             type: 'error'
           })
         } else {
