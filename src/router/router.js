@@ -12,6 +12,7 @@ import AboutPage from '../view/about/AboutPage.vue'
 import Download from '../view/download/Download.vue'
 import HotelMap from '../view/hotelMap/HotelMap.vue'
 import ContactUs from '../view/contactUs/ContactUs.vue'
+import Agenda from '../view/agenda/Agenda.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -28,6 +29,7 @@ export default new Router({
     {path: '/contactUs', component: ContactUs},
     {path: '/download', component: Download},
     {path: '/aboutPage', component: AboutPage},
-    {path: '/hotelMap', component: HotelMap}
+    {path: '/hotelMap', component: HotelMap},
+    {path: '/Agenda', component: Agenda}
   ]
 })

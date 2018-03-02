@@ -15,7 +15,7 @@
       <el-menu-item index="/speakers">Speakers</el-menu-item>
       <el-menu-item index="/generalInformation">General Information</el-menu-item>
     </el-submenu>
-    <el-menu-item>AGENDA</el-menu-item>
+    <el-menu-item index="/Agenda">AGENDA</el-menu-item>
     <el-submenu index="3">
       <template slot="title">REGISTRATION</template>
       <el-menu-item index="/register">Registration Form</el-menu-item>
