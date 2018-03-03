@@ -4,7 +4,7 @@
         <el-col :span="24">
           <div class="Speakers-content">
             <div class="content-titel">
-              <h1>DOWNLOAD FILE</h1>
+              <h1>AGENDA</h1>
             </div>
             <div class="content-main">
               <div class="content-main-font">
@@ -13,6 +13,9 @@
                 href="../../../static/download/APSID%20scientific%20congress%202018%20Programme.pdf" target="_blank">
                 <span class="content-main-font-span">APSID Scientific Congress 2018 Programme</span></a>
               </div>
+            </div>
+            <div style="margin-top: 1.6rem;">
+              <img src="../../../static/img/agenda/0001.jpg" style="max-width: 100%;"/>
             </div>
           </div>
         </el-col>
@@ -36,7 +39,6 @@
   <style scoped>
     .content-box {
       width: 75%;
-      min-height: 400px;
       margin: 0 auto;
     }
 
@@ -56,7 +58,6 @@
 
     .content-main {
       width: 100%;
-      float: left;
       border-radius: 30%;
     }
 

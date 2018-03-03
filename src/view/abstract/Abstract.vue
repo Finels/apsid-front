@@ -187,19 +187,23 @@
         return (doc || docx || pdf) && isLt5M
       },
       uploadError(response, file, fileList) {
-        if (response.data.apiName === 'RNcode verify') {
+        console.log('response:' + response)
+        console.log('response.data:' + response.data)
+        console.log('response.data.errorDescription:' + response.data.errorDescription)
+        /* if (response.data.errorCode === 'fail' && response.data.errorDescription !== '') {
+          this.errorDes = response.data.errorDescription
           this.$message({
             showClose: true,
-            message: response.data.errorDescription,
+            message: this.errorDes,
             type: 'error'
           })
-        } else {
-          this.$message({
-            showClose: true,
-            message: 'The file upload failed!',
-            type: 'error'
-          })
-        }
+        } else { */
+        this.$message({
+          showClose: true,
+          message: 'The file upload failed!',
+          type: 'error'
+        })
+        // }
       },
       uploadSuccess(response, file, fileList) {
         this.$message({
