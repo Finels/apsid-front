@@ -246,10 +246,10 @@
           </div>
           <div class="content-main">
             <div class="content-main-box">
-              <img src="../../../static/img/speakers/Prof.MathewCook.png"/>
+              <img src="../../../static/img/speakers/Prof.MatthewCook.png"/>
             </div>
             <div class="content-main-font">
-              <h6>Prof.Mathew Cook</h6>
+              <h6>Prof.Matthew Cook</h6>
               <span>Department of Immunology, The Canberra Hospital and ANU Medical School, Canberra, Australian Capital Territory, Australia</span>
               <span class="font-blue">Symposium 7 - Diagnostics & Treatment</span>
               <span class="font-blue">Use of NGS in novel PID</span>
@@ -295,7 +295,7 @@
           </div>
           <div class="content-main">
             <div class="content-main-box">
-              <img src="../../../static/img/APSID-LOGO.png"/>
+              <img src="../../../static/img/speakers/Prof.RyutaNishikomori.png"/>
             </div>
             <div class="content-main-font">
               <h6>Prof.Ryuta Nishikomori</h6>

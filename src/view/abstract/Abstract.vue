@@ -187,23 +187,28 @@
         return (doc || docx || pdf) && isLt5M
       },
       uploadError(response, file, fileList) {
+        /* this.$message({
+          showClose: true,
+          message: 'The file upload failed!',
+          type: 'error'
+        }) */
         console.log('response:' + response)
-        console.log('response.data:' + response.data)
-        console.log('response.data.errorDescription:' + response.data.errorDescription)
-        /* if (response.data.errorCode === 'fail' && response.data.errorDescription !== '') {
-          this.errorDes = response.data.errorDescription
+        console.log('response.data.Error:' + response.data.Error)
+        console.log('response.data.Error.errorDescription:' + response.data.Error.errorDescription)
+        if (response.data.Error.errorCode === 'fail' && response.data.Error.errorDescription !== '') {
+          this.errorDes = response.data.Error.errorDescription
           this.$message({
             showClose: true,
             message: this.errorDes,
             type: 'error'
           })
-        } else { */
-        this.$message({
-          showClose: true,
-          message: 'The file upload failed!',
-          type: 'error'
-        })
-        // }
+        } else {
+          this.$message({
+            showClose: true,
+            message: 'The file upload failed!',
+            type: 'error'
+          })
+        }
       },
       uploadSuccess(response, file, fileList) {
         this.$message({
