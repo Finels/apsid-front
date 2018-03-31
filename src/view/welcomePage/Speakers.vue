@@ -372,11 +372,10 @@
               <img src="../../../static/img/speakers/Dr.Woei-KangLiew.png"/>
             </div>
             <div class="content-main-font">
-              <h6>Dr.Woei-Kang Liew</h6>
-              <span>Vice-President, College of Paediatrics and Child Health, Academy of Medicine Singapore</span>
-              <span>President, Asthma and Allergy Association, Singapore</span>
-              <span>Visiting Consultant Paediatrician, Paediatric Medicine, KK Women's and Children's Hospital</span>
-              <span>Consultant Paediatric Immunologist & Allergist, Gleneagles Hospital Singapore, Parkway Pantai</span>
+              <h6>Dr.Woei Kang Liew</h6>
+              <span>Chair, Registry and Research Working Party, APSID</span>
+              <span>President, College of Paediatrics and Child Health, Academy of Medicine Singapore</span>
+              <span>Consultant Paediatrician, Paediatric Immunology & Allergy, Gleneagles Hospital Singapore, Parkway Pantai</span>
               <span class="font-blue">Symposium 5 - PID in Asia</span>
               <span class="font-blue">PID in Singapore- Few Rare Gems</span>
             </div>
