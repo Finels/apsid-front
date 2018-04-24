@@ -117,7 +117,7 @@
         this.$notify({
           title: 'Prompt',
           dangerouslyUseHTMLString: true,
-          message: '<a href="#/abstract">Welcome to submit abstract!</a>',
+          message: '<a href="#/Agenda">New program and poster arrangement!</a>',
           duration: 80000,
           offset: 30
         })

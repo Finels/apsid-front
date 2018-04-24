@@ -9,9 +9,17 @@
             <div class="content-main">
               <div class="content-main-font">
                 <h2>APSID Scientific Congress 2018 Programme</h2>
-                <span style="margin-left: 1rem;color: #013763">Download address:</span><a
-                href="../../../static/download/APSID%20scientific%20congress%202018%20Programme.pdf" target="_blank">
-                <span class="content-main-font-span">APSID Scientific Congress 2018 Programme</span></a>
+                <span style="margin-left: 1rem;color: #013763">Download address:</span>
+                <a href="../../../static/download/APSID%202018%20scientific%20congress%20programme%200424.pdf" target="_blank">
+                  <span class="content-main-font-span">APSID Scientific Congress 2018 Programme</span>
+                </a>
+              </div>
+              <div class="content-main-font">
+                <h2>Congress poster arrangement</h2>
+                <span style="margin-left: 1rem;color: #013763">Download address:</span>
+                <a href="../../../static/download/Congress%20poster%20arrangement.pdf" target="_blank">
+                  <span class="content-main-font-span">Congress poster arrangement</span>
+                </a>
               </div>
             </div>
             <div style="margin-top: 1.6rem;">
